@@ -1,0 +1,622 @@
+#if 0
+#include "app_psi.h"
+#include "app_module.h"
+#include "app_audio.h"
+#include "app_send_msg.h"
+
+//#define APP_PSI_LOG
+
+//#define PAT_FIXED_LENGTH    (12)
+//#define PAT_LOOP_LENGTH    (4)
+
+//#define PMT_FIXED_LENGTH    (16)
+//#define PMT_LOOP_FIXED_LENGTH    (5)
+
+//#define ISO639_DESCIPTOR_LENGTH    (6)
+//#define AC3_DESCIPTOR_LENGTH    (3)
+//#define EAC3_DESCIPTOR_LENGTH    (3)
+//#define SUBT_DESCIPTOR_LENGTH    (10)
+//#define TTX_DESCIPTOR_LENGTH    (7)
+
+#if 0
+/////plz release result data if valid /////
+//char *app_pat_generate(PAT_ProgData *pat_prog, unsigned int prog_count)
+char *app_pat_generate(unsigned short *prog_id_array, unsigned int prog_count)
+{
+    char *pat_data = NULL;
+    unsigned short i = 0;
+    unsigned short cnt = 0;
+    unsigned short sec_length = 0;
+    unsigned int crc_value = 0;
+    GxMsgProperty_NodeByIdGet node = {0};
+
+    if((prog_id_array == NULL) || (prog_count == 0))
+        return NULL;
+
+    pat_data = (char*)GxCore_Calloc(PAT_FIXED_LENGTH + PAT_LOOP_LENGTH * prog_count, 1);
+    if(pat_data != NULL)
+    {
+        //table_id
+        pat_data[i++] = 0x00;
+
+        //synctax
+        pat_data[i] = 0x80;
+        //section length
+        sec_length = PAT_FIXED_LENGTH + PAT_LOOP_LENGTH * prog_count - 3;
+        pat_data[i++] |= ((sec_length >> 8) & 0x0f);
+        pat_data[i++] = sec_length & 0xff;
+
+        //ts_id
+        pat_data[i++] = 0;
+        pat_data[i++] = 1;
+
+        //version num / current_next_indicator
+        pat_data[i++] = 1;
+
+        //sec_num
+        pat_data[i++] = 0;
+
+        //last_sec_num
+        pat_data[i++] = 0;
+
+        for(cnt = 0; cnt < prog_count; cnt++)
+        {
+            memset(&node, 0, sizeof(GxMsgProperty_NodeByIdGet));
+            node.node_type = NODE_PROG;
+            node.id = prog_id_array[cnt];
+            if(app_send_msg_exec(GXMSG_PM_NODE_BY_ID_GET, &node) == GXCORE_SUCCESS)
+            {
+                //prog_num
+                pat_data[i++] = (node.prog_data.service_id >> 8) & 0xff;
+                pat_data[i++] = node.prog_data.service_id & 0xff;
+
+                //pmt_pid
+                pat_data[i++] = (node.prog_data.pmt_pid >> 8) & 0x1f;
+                pat_data[i++] = node.prog_data.pmt_pid & 0xff;
+            }
+        }
+
+        crc_value = dvb_crc32((unsigned char*)pat_data, i);
+
+        //crc
+        pat_data[i++] = (crc_value >> 24 & 0xff);
+        pat_data[i++] = (crc_value >> 16 & 0xff);
+        pat_data[i++] = (crc_value >> 8 & 0xff);
+        pat_data[i++] = (crc_value & 0xff);
+
+#ifdef APP_PSI_LOG
+        sec_length = i;
+        printf("\n######### PAT Length = %d #########\n", sec_length);
+        for(i = 0; i < sec_length; i++)
+        {
+            printf("%02x ", pat_data[i]);
+            if(i % 16 == 15)
+                printf("\n");
+        }
+        printf("\n###################################\n");
+#endif
+    }
+
+    return pat_data;
+}
+#endif
+
+#if 0
+static unsigned short _pmt_stream_video_generate(char *buff, unsigned short video_pid, GxBusPmDataProgVideoType video_type)
+{
+    unsigned short i = 0;
+    unsigned char stream_type = 0;
+
+    if(buff == NULL)
+        return 0;
+
+    if(video_type == GXBUS_PM_PROG_H264)
+        stream_type = 0x1b;
+    else if(video_type == GXBUS_PM_PROG_MPEG1)
+        stream_type = 0x01;
+    else
+        stream_type = 0x02;
+
+    buff[i++] = stream_type;
+    buff[i++] = ((video_pid >> 8) & 0x1f);
+    buff[i++] = video_pid & 0xff;
+    buff[i++] = 0;
+    buff[i++] = 0;
+
+    return i;
+}
+
+static bool _check_audio_iso639(char *lang)
+{
+    if((lang == NULL) || (strlen(lang) == 0) || (strlen(lang) > 3))
+        return false;
+
+    return true;
+}
+
+static GxBusPmDataProgAudioType _get_pm_audio_type(AudioCodecType audio_type)
+{
+    GxBusPmDataProgAudioType type;
+
+    switch(audio_type)
+    {
+        case AUDIO_CODEC_MPEG1:
+            type = GXBUS_PM_AUDIO_MPEG1;
+            break;
+
+        case AUDIO_CODEC_MPEG2:
+            type = GXBUS_PM_AUDIO_MPEG2;
+            break;
+
+        case AUDIO_CODEC_AC3:
+            type = GXBUS_PM_AUDIO_AC3;
+
+        case AUDIO_CODEC_EAC3:
+            type = GXBUS_PM_AUDIO_EAC3;
+            break;
+
+        default:
+            type = GXBUS_PM_AUDIO_MPEG2;
+            break;
+    }
+
+    return type;
+}
+
+static unsigned short _pmt_stream_audio_generate(char *buff, unsigned short audio_pid, GxBusPmDataProgAudioType audio_type, char *iso_str)
+{
+    unsigned short i = 0;
+    unsigned char stream_type = 0;
+    unsigned short es_info_length = 0;
+    bool iso_flag = false;
+    bool ac3_flag = false;
+    bool eac3_flag = false;
+
+    if(buff == NULL)
+        return 0;
+
+    if(audio_type == GXBUS_PM_AUDIO_MPEG1)
+        stream_type = 0x03;
+    else if(audio_type == GXBUS_PM_AUDIO_MPEG2)
+        stream_type = 0x04;
+    else if(audio_type == GXBUS_PM_AUDIO_AC3)
+    {
+        stream_type = 0x06;
+        es_info_length += AC3_DESCIPTOR_LENGTH;
+        ac3_flag = true;
+    }
+    else if(audio_type == GXBUS_PM_AUDIO_EAC3)
+    {
+        stream_type = 0x06;
+        es_info_length += EAC3_DESCIPTOR_LENGTH;
+        eac3_flag = true;
+    }
+    else
+        stream_type = 0x04;
+
+    if(_check_audio_iso639(iso_str) == true)
+    {
+        es_info_length += ISO639_DESCIPTOR_LENGTH;
+        iso_flag = true;
+    }
+
+    buff[i++] = stream_type;
+    buff[i++] = ((audio_pid >> 8) & 0x1f);
+    buff[i++] = audio_pid & 0xff;
+
+    //es info lenth
+    buff[i++] = ((es_info_length >> 8) & 0x0f);
+    buff[i++] = (es_info_length & 0xff);
+
+    if(iso_flag == true)
+    {
+        buff[i++] = 0x0a;
+        buff[i++] = 4;
+        buff[i++] = iso_str[0];
+        buff[i++] = iso_str[1];
+        buff[i++] = iso_str[2];
+        buff[i++] = 1;
+    }
+
+    if(ac3_flag == true)
+    {
+        buff[i++] = 0x6a;
+        buff[i++] = 1;
+        buff[i++] = 0;
+    }
+
+    if(eac3_flag == true)
+    {
+        buff[i++] = 0x7a;
+        buff[i++] = 1;
+        buff[i++] = 0;
+    }
+
+    return i;
+}
+
+#if 0
+static status_t _teletext_descriptor_generate(unsigned char *buff, unsigned char *iso_str, unsigned char type, unsigned char magazine, unsigned char page)
+{
+    unsigned short i = 0;
+
+    if((buff == NULL) || (iso_str == NULL))
+        return GXCORE_ERROR;
+
+    //adescriptor tag
+    buff[i++] = 0x56;
+    //descriptor length
+    buff[i++] = TTX_DESCIPTOR_LENGTH - 2;
+
+    //iso_639
+    buff[i++] = iso_str[0];
+    buff[i++] = iso_str[1];
+    buff[i++] = iso_str[2];
+
+    //teletext type
+    buff[i] = (type << 3);
+    //magzine num
+    buff[i++] |= (magazine & 0x07);
+
+    //page num
+    buff[i++] = page;
+
+    return GXCORE_SUCCESS;
+}
+
+static status_t _subtitling_descriptor_generate(unsigned char *buff, unsigned char *iso_str, unsigned char type, unsigned short composite_page_id, unsigned short ancillary_page_id)
+{
+    unsigned short i = 0;
+
+    if((buff == NULL) || (iso_str == NULL))
+        return GXCORE_ERROR;
+
+    //adescriptor tag
+    buff[i++] = 0x59;
+    //descriptor length
+    buff[i++] = SUBT_DESCIPTOR_LENGTH - 2;
+
+    //iso_639
+    buff[i++] = iso_str[0];
+    buff[i++] = iso_str[1];
+    buff[i++] = iso_str[2];
+
+    //teletext type
+    buff[i++] = type;
+
+    //composite_page_id
+    buff[i++] = (composite_page_id >> 8) & 0xff;
+    buff[i++] = composite_page_id & 0xff;
+
+
+    //composite_page_id
+    buff[i++] = (ancillary_page_id>> 8) & 0xff;
+    buff[i++] = ancillary_page_id & 0xff;
+
+    return GXCORE_SUCCESS;
+}
+
+static unsigned short _pmt_stream_ttx_sbut_generate(unsigned char *buff, TtxSubtOps *p_ttx_subt)
+{
+    unsigned short i = 0;
+    char cnt = 0;
+
+    if((buff == NULL) || (p_ttx_subt == NULL))
+        return 0;
+
+    for(cnt = 0; cnt < p_ttx_subt->ttx_num + p_ttx_subt->subt_num; cnt++)
+    {
+        //type
+        buff[i++] = 0x06;
+
+        //elem_pid
+        buff[i++] = ((p_ttx_subt->content[cnt].elem_pid >> 8) & 0x1f);
+        buff[i++] = (p_ttx_subt->content[cnt].elem_pid & 0xff);
+
+        buff[i++] = 0;
+        if(cnt < p_ttx_subt->ttx_num) //ttx
+        {
+            //es info length
+            buff[i++] = TTX_DESCIPTOR_LENGTH;
+            if(_teletext_descriptor_generate(buff + i, p_ttx_subt->content[cnt].lang, p_ttx_subt->content[cnt].type,
+                        p_ttx_subt->content[cnt].ttx.magazine, p_ttx_subt->content[cnt].ttx.page) == GXCORE_SUCCESS)
+            {
+                i += TTX_DESCIPTOR_LENGTH;
+            }
+        }
+        else //subt
+        {
+            //es info length
+            buff[i++] = SUBT_DESCIPTOR_LENGTH;
+            if(_subtitling_descriptor_generate(buff + i, p_ttx_subt->content[cnt].lang, p_ttx_subt->content[cnt].type,
+                        p_ttx_subt->content[cnt].subt.composite_page_id, p_ttx_subt->content[cnt].subt.ancillary_page_id) == GXCORE_SUCCESS)
+            {
+                i += SUBT_DESCIPTOR_LENGTH;
+            }
+        }
+    }
+
+    return i;
+}
+#endif
+
+#if 0
+static unsigned short _pmt_stream_ttx_generate(char *buff, unsigned short ttx_pid, unsigned char type, char *iso_str, unsigned char magazine, unsigned char page)
+{
+    unsigned short i = 0;
+
+    if(buff == NULL)
+        return 0;
+
+    if((iso_str == NULL) || (strlen(iso_str) == 0))
+        return 0;
+
+    //type
+    buff[i++] = 0x06;
+    //elem_pid
+    buff[i++] = ((ttx_pid >> 8) & 0x1f);
+    buff[i++] = (ttx_pid & 0xff);
+    //es info length
+    buff[i++] = 0;
+    buff[i++] = TTX_DESCIPTOR_LENGTH;
+
+    //descriptor tag
+    buff[i++] = 0x56;
+    //descriptor length
+    buff[i++] = TTX_DESCIPTOR_LENGTH - 2;
+    //iso_639
+    buff[i++] = iso_str[0];
+    buff[i++] = iso_str[1];
+    buff[i++] = iso_str[2];
+    //teletext type
+    buff[i] = (type << 3);
+    //magzine num
+    buff[i++] |= (magazine & 0x07);
+    //page num
+    buff[i++] = page;
+
+    return i;
+}
+#endif
+
+static unsigned short _pmt_stream_subt_generate(char *buff, unsigned short subt_pid, unsigned char type, char *iso_str, unsigned short composite_page_id, unsigned short ancillary_page_id)
+{
+    unsigned short i = 0;
+
+    if(buff == NULL)
+        return 0;
+
+    if((iso_str == NULL) || (strlen((char*)iso_str) == 0))
+        return 0;
+
+    //type
+    buff[i++] = 0x06;
+    //elem_pid
+    buff[i++] = ((subt_pid >> 8) & 0x1f);
+    buff[i++] = (subt_pid & 0xff);
+    //es info length
+    buff[i++] = 0;
+    buff[i++] = SUBT_DESCIPTOR_LENGTH;
+
+    //adescriptor tag
+    buff[i++] = 0x59;
+    //descriptor length
+    buff[i++] = SUBT_DESCIPTOR_LENGTH - 2;
+    //iso_639
+    buff[i++] = iso_str[0];
+    buff[i++] = iso_str[1];
+    buff[i++] = iso_str[2];
+    //teletext type
+    buff[i++] = type;
+    //composite_page_id
+    buff[i++] = (composite_page_id >> 8) & 0xff;
+    buff[i++] = composite_page_id & 0xff;
+    //composite_page_id
+    buff[i++] = (ancillary_page_id >> 8) & 0xff;
+    buff[i++] = ancillary_page_id & 0xff;
+
+    return i;
+}
+
+/////plz release result data if valid /////
+char *app_pmt_generate(unsigned short porg_id)
+{
+    char *pmt_data = NULL;
+    char *temp_data = NULL;
+    unsigned short i = 0;
+    unsigned short cnt = 0;
+    unsigned short length = 0;
+    unsigned short temp_len = 0;
+    unsigned int crc_value = 0;
+    AudioLang_t *audio_list = NULL;
+    GxBusPmDataProgAudioType audio_type;
+    TtxSubtOps *p_ttx_subt = &g_AppTtxSubt;
+    GxMsgProperty_NodeByIdGet node = {0};
+
+    node.node_type = NODE_PROG;
+    node.id = porg_id;
+    if(app_send_msg_exec(GXMSG_PM_NODE_BY_ID_GET, &node) == GXCORE_ERROR)
+        return NULL;
+
+    pmt_data = (char*)GxCore_Calloc(PMT_FIXED_LENGTH, 1);
+    if(pmt_data != NULL)
+    {
+        length = PMT_FIXED_LENGTH;
+        //table_id
+        pmt_data[i++] = 0x02;
+        //synctax / length
+        pmt_data[i++] = 0x80;
+        pmt_data[i++] = 0x00;
+        //prog_num
+        pmt_data[i++] = ((node.prog_data.service_id >> 8) & 0xff);
+        pmt_data[i++] = (node.prog_data.service_id & 0xff);
+        //version num / current_next_indicator
+        pmt_data[i++] = 1;
+        //sec_num
+        pmt_data[i++] = 0x00;
+        //last_sec_num
+        pmt_data[i++] = 0x00;
+        //pcr
+        pmt_data[i++] = (node.prog_data.pcr_pid >> 8) & 0x1f;//0x1f;
+        pmt_data[i++] = node.prog_data.pcr_pid & 0xff;//0xff;
+        //prog_info_length
+        pmt_data[i++] = 0;
+        pmt_data[i++] = 0;
+
+        // video
+        temp_data = (char*)GxCore_Realloc(pmt_data, length + PMT_LOOP_FIXED_LENGTH);
+        if(temp_data == NULL)
+            goto error_ret;
+
+        pmt_data = temp_data;
+        temp_data = NULL;
+        temp_len = _pmt_stream_video_generate(pmt_data + i, node.prog_data.video_pid, node.prog_data.video_type);
+        i += temp_len;
+        length += temp_len;
+
+        // audio
+        audio_list = app_get_audio_lang();
+        if((audio_list != NULL) && (audio_list->audioLangList != NULL) && (audio_list->audioLangCnt != 0))
+        {
+            ///current audio
+            for(cnt = 0; cnt < audio_list->audioLangCnt; cnt++)
+            {
+                if(audio_list->audioLangList[cnt].id == node.prog_data.cur_audio_pid)
+                {
+                    temp_len = PMT_LOOP_FIXED_LENGTH;
+                    if(_check_audio_iso639(audio_list->audioLangList[cnt].name) == true) //iso639
+                    {
+                        temp_len += ISO639_DESCIPTOR_LENGTH;
+                    }
+
+                    if(audio_list->audioLangList[cnt].audiotype == AUDIO_CODEC_AC3) //ac3 descriptor
+                    {
+                        temp_len += AC3_DESCIPTOR_LENGTH;
+                    }
+
+                    if(audio_list->audioLangList[cnt].audiotype == AUDIO_CODEC_EAC3) //eac3 descriptor
+                    {
+                        temp_len += EAC3_DESCIPTOR_LENGTH;
+                    }
+
+                    temp_data = (char*)GxCore_Realloc(pmt_data, length + temp_len);
+                    if(temp_data == NULL)
+                        goto error_ret;
+
+                    pmt_data = temp_data;
+                    temp_data = NULL;
+                    audio_type = _get_pm_audio_type(audio_list->audioLangList[cnt].audiotype);
+                    temp_len = _pmt_stream_audio_generate(pmt_data + i, audio_list->audioLangList[cnt].id,
+                            audio_type, audio_list->audioLangList[cnt].name);
+                    i += temp_len;
+                    length += temp_len;
+                    break;
+                }
+            }
+#if 1
+            ///other audio
+            for(cnt = 0; cnt < audio_list->audioLangCnt; cnt++)
+            {
+                if(audio_list->audioLangList[cnt].id != node.prog_data.cur_audio_pid)
+                {
+                    temp_len = PMT_LOOP_FIXED_LENGTH;
+                    if(_check_audio_iso639(audio_list->audioLangList[cnt].name) == true) //iso639
+                    {
+                        temp_len += ISO639_DESCIPTOR_LENGTH;
+                    }
+
+                    if(audio_list->audioLangList[cnt].audiotype == AUDIO_CODEC_AC3) //ac3 descriptor
+                    {
+                        temp_len += AC3_DESCIPTOR_LENGTH;
+                    }
+
+                    if(audio_list->audioLangList[cnt].audiotype == AUDIO_CODEC_EAC3) //eac3 descriptor
+                    {
+                        temp_len += EAC3_DESCIPTOR_LENGTH;
+                    }
+
+                    temp_data = (char*)GxCore_Realloc(pmt_data, length + temp_len);
+                    if(temp_data == NULL)
+                        goto error_ret;
+
+                    pmt_data = temp_data;
+                    temp_data = NULL;
+                    audio_type = _get_pm_audio_type(audio_list->audioLangList[cnt].audiotype);
+                    temp_len = _pmt_stream_audio_generate(pmt_data + i, audio_list->audioLangList[cnt].id,
+                            audio_type, audio_list->audioLangList[cnt].name);
+                    i += temp_len;
+                    length += temp_len;
+                }
+            }
+#endif
+        }
+#if 0
+        //ttx subt
+        for(cnt = 0; cnt < p_ttx_subt->ttx_num; cnt++)
+        {
+            temp_len = PMT_LOOP_FIXED_LENGTH + TTX_DESCIPTOR_LENGTH;
+            temp_data = (char*)GxCore_Realloc(pmt_data, length + temp_len);
+            if(temp_data == NULL)
+                goto error_ret;
+            pmt_data = temp_data;
+            temp_data = NULL;
+
+            temp_len = _pmt_stream_ttx_generate(pmt_data + i, p_ttx_subt->content[cnt].elem_pid, p_ttx_subt->content[cnt].type,
+                    (char*)p_ttx_subt->content[cnt].lang, p_ttx_subt->content[cnt].ttx.magazine, p_ttx_subt->content[cnt].ttx.page);
+            i += temp_len;
+            length += temp_len;
+        }
+#endif
+        //dvb subt
+        for(; cnt < p_ttx_subt->ttx_num + p_ttx_subt->subt_num; cnt++)
+        {
+            temp_len = PMT_LOOP_FIXED_LENGTH + SUBT_DESCIPTOR_LENGTH;
+            temp_data = (char*)GxCore_Realloc(pmt_data, length + temp_len);
+            if(temp_data == NULL)
+                goto error_ret;
+            pmt_data = temp_data;
+            temp_data = NULL;
+
+            temp_len = _pmt_stream_subt_generate(pmt_data + i, p_ttx_subt->content[cnt].elem_pid, p_ttx_subt->content[cnt].type,
+                    (char*)p_ttx_subt->content[cnt].lang, p_ttx_subt->content[cnt].subt.composite_page_id, p_ttx_subt->content[cnt].subt.ancillary_page_id);
+            i += temp_len;
+            length += temp_len;
+        }
+
+        length -= 3;
+        pmt_data[1] |= ((length >> 8) & 0x0f);
+        pmt_data[2] = (length & 0xff);
+
+        crc_value = dvb_crc32((unsigned char*)pmt_data, i);
+        //crc
+        pmt_data[i++] = (crc_value >> 24 & 0xff);
+        pmt_data[i++] = (crc_value >> 16 & 0xff);
+        pmt_data[i++] = (crc_value >> 8 & 0xff);
+        pmt_data[i++] = (crc_value & 0xff);
+
+#ifdef APP_PSI_LOG
+        length = i;
+        printf("\n######### PMT Length = %d #########\n", length);
+        for(i = 0; i < length; i++)
+        {
+            printf("%02x ", pmt_data[i]);
+            if(i % 16 == 15)
+                printf("\n");
+        }
+        printf("\n###################################\n");
+#endif
+    }
+
+    return pmt_data;
+
+error_ret:
+
+    if(pmt_data != NULL)
+    {
+        GxCore_Free(pmt_data);
+        pmt_data = NULL;
+    }
+    return NULL;
+}
+#endif
+#endif

@@ -1,0 +1,102 @@
+#ifndef __APP_CONFIG_H__
+#define __APP_CONFIG_H__
+
+#define GX3211 1
+#define MINI_256_COLORS_OSD_SUPPORT  0
+
+#define MINI_16_BITS_OSD_SUPPORT  1
+#define APP_XRES  1024
+#define APP_YRES  576
+
+#define MINI_16BIT_WIN8_OSD_SUPPORT  1
+
+//Demod DVBS
+#define DEMOD_DVB_S 1
+#define DOUBLE_S2_SUPPORT 0
+#define DEMOD_DVB_COMBO_S 0
+
+//Demod DVBT
+#define DEMOD_DVB_T 0
+#define DEMOD_DVB_COMBO_T 0
+
+//Demod DVBC
+#define DEMOD_DVB_C 0
+#define DEMOD_DVB_COMBO_C 0
+
+//Demod DTMB
+#define DEMOD_DTMB 0
+
+//Demod ISDBT
+#define DEMOD_ISDBT 0
+
+//Demod COMBO
+#define DEMOD_DVB_COMBO 0
+
+#define NDEMOD_WITH_1TUNER 0
+
+#define NETWORK_SUPPORT 1
+#define PPPOE_SUPPORT 0
+#define NETAPPS_SUPPORT 1
+#define IPTV_SUPPORT 0
+#define WEATHER_SUPPORT 1
+#define MAP_SUPPORT 1
+#define YOUTUBE_SUPPORT 1
+#define YOUPORN_SUPPORT 0
+#define BOX_SERVICE 0
+#define DLNA_SUPPORT 0
+
+#define WIFI_SUPPORT 1
+#define MOD_3G_SUPPORT 0
+#define RECALL_LIST_SUPPORT 0
+#define THREE_HOURS_AUTO_STANDBY 0
+#define UNICABLE_SUPPORT 0
+#define MUTI_TS_SUPPORT 0
+#define FACTORY_TEST_SUPPORT 0
+#define FACTORY_SERIALIZATION_SUPPORT 0
+#define KEY_SCANCODE_SUPPORT 0
+#define MERGE_DB_SUPPORT 0
+#define BOOT_LOGO_SUPPORT 1
+#define TKGS_SUPPORT 0
+#define MEDIA_SUBTITLE_SUPPORT 1
+
+#define PVR_RECORD_TP_SUPPORT 0
+#define PVR_SUPPORT 1
+
+#define GAME_ENABLE 1
+#define TTX_PRE_PROCESS_ENABLE 0
+#define AUTO_TEST_ENABLE 0
+#define LNB_SHORTCUT_SUPPORT 1
+#define OTA_SUPPORT 1
+#define UPDATE_SUPPORT_FLAG 1
+#define OTA_MONITOR_SUPPORT 1
+#define KERNEL_SUPPORT_FLAG 0
+#define MV_WIN_SUPPORT 1
+
+#define TURN_OVER_MODE 0
+#define LANG_ENGLISH "English",
+#define LANG_ARABIC "Arabic",
+#define LANG_FRENCH "French",
+#define LANG_GERMAN "German",
+#define LANG_MAX 4
+
+extern char *g_LangName[];
+
+#define SOFEWARE_VER 0
+#define SOFEWARE_TIME 20161114
+#define LOADER_VER "V1.9.6.1"
+#define BOOT_OTA_VER "V1.2.0.0"
+#define LINUX_KERNEL_VER "V2.6.55.7"
+#define PLATFORM_LIB_VER "V1.9.6-0"
+#define DEFAULTDB_VER "V1.2.0.0"
+#define CA_SUPPORT 0
+#define DUAL_CHANNEL_DESCRAMBLE_SUPPORT 0
+#define ECM_SUPPORT 0
+#define EMM_SUPPORT 0
+#define EX_SHIFT_SUPPORT 0
+#define CMM_SUPPORT 0
+
+#define CASCAM_SUPPORT 1
+#define NSCAS_SUPPORT 1
+#define NSCAS_SMC_VERSION 1
+
+#endif

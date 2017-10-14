@@ -1,0 +1,1740 @@
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pvr_bar.o: ./app_pvr_bar.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_pvr_bar.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_tuner_select.o: ./app_tuner_select.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_tuner_select.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ota.o: ./app_ota.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_ota.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_full_keyboard.o: ./app_full_keyboard.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_full_keyboard.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app.o: ./app.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_book.o: ./app_book.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_book.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ota_loader_pop.o: ./ota_loader/app_ota_loader_pop.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ota_loader/app_ota_loader_pop.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_system_setting_opt.o: ./app_system_setting_opt.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_system_setting_opt.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_timer_setting.o: ./app_timer_setting.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_timer_setting.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_osd_setting.o: ./app_osd_setting.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_osd_setting.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/main.o: ./main.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./main.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_multiscreen.o: ./app_multiscreen.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_multiscreen.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_extend.o: ./extend/app_extend.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./extend/app_extend.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/descrambler.o: ./extend/descrambler.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./extend/descrambler.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/porting_common.o: ./extend/porting/porting_common.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./extend/porting/porting_common.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_descrambler.o: ./extend/app_descrambler.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./extend/app_descrambler.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_tkgs_background_upgrade.o: ./tkgs/app_tkgs_background_upgrade.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./tkgs/app_tkgs_background_upgrade.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_hidden_location.o: ./tkgs/app_hidden_location.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./tkgs/app_hidden_location.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_visible_location.o: ./tkgs/app_visible_location.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./tkgs/app_visible_location.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_tkgs_upgrade_process.o: ./tkgs/app_tkgs_upgrade_process.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./tkgs/app_tkgs_upgrade_process.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_preferred_list.o: ./tkgs/app_preferred_list.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./tkgs/app_preferred_list.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_tkgs_upgrade.o: ./tkgs/app_tkgs_upgrade.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./tkgs/app_tkgs_upgrade.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ca_menu.o: ./ca/app_ca_menu.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/app_ca_menu.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cmm_cascam_dialog1.o: ./ca/common_menu/cmm_cascam_dialog1.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/common_menu/cmm_cascam_dialog1.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cmm_cascam_dialog3.o: ./ca/common_menu/cmm_cascam_dialog3.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/common_menu/cmm_cascam_dialog3.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cmm_cascam_dialog5.o: ./ca/common_menu/cmm_cascam_dialog5.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/common_menu/cmm_cascam_dialog5.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cmm_cascam_dialog.o: ./ca/common_menu/cmm_cascam_dialog.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/common_menu/cmm_cascam_dialog.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cmm_cascam_dialog2.o: ./ca/common_menu/cmm_cascam_dialog2.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/common_menu/cmm_cascam_dialog2.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cmm_cascam_dialog6.o: ./ca/common_menu/cmm_cascam_dialog6.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/common_menu/cmm_cascam_dialog6.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cmm_cascam_dialog4.o: ./ca/common_menu/cmm_cascam_dialog4.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/common_menu/cmm_cascam_dialog4.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_utility.o: ./ca/nstv/app_nstv_utility.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_utility.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_rolling_osd.o: ./ca/nstv/app_nstv_rolling_osd.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_rolling_osd.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_ippv.o: ./ca/nstv/app_nstv_ippv.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_ippv.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_fingerprint.o: ./ca/nstv/app_nstv_fingerprint.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_fingerprint.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_operator.o: ./ca/nstv/app_nstv_operator.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_operator.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_lock_service.o: ./ca/nstv/app_nstv_lock_service.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_lock_service.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_maturity.o: ./ca/nstv/app_nstv_maturity.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_maturity.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_mail.o: ./ca/nstv/app_nstv_mail.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_mail.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_password.o: ./ca/nstv/app_nstv_password.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_password.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_card_parent_child.o: ./ca/nstv/app_nstv_card_parent_child.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_card_parent_child.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_action.o: ./ca/nstv/app_nstv_action.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_action.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_detitle.o: ./ca/nstv/app_nstv_detitle.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_detitle.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_curtain.o: ./ca/nstv/app_nstv_curtain.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_curtain.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_entitlement_skynet.o: ./ca/nstv/app_nstv_entitlement_skynet.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_entitlement_skynet.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_update_info.o: ./ca/nstv/app_nstv_update_info.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_update_info.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_ippv_notify.o: ./ca/nstv/app_nstv_ippv_notify.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_ippv_notify.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_card_pair_info.o: ./ca/nstv/app_nstv_card_pair_info.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_card_pair_info.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_message.o: ./ca/nstv/app_nstv_message.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_message.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_pin.o: ./ca/nstv/app_nstv_pin.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_pin.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_work_time.o: ./ca/nstv/app_nstv_work_time.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_work_time.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_wallet.o: ./ca/nstv/app_nstv_wallet.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_wallet.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_basicinfo.o: ./ca/nstv/app_nstv_basicinfo.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_basicinfo.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_menu.o: ./ca/nstv/app_nstv_menu.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_menu.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_entitlement.o: ./ca/nstv/app_nstv_entitlement.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_entitlement.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_features.o: ./ca/nstv/app_nstv_features.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/nstv/app_nstv_features.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/gx_cdcas.o: ./ca/ca_verify/cdcas/gx_cdcas.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/ca_verify/cdcas/gx_cdcas.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/gx_sign.o: ./ca/ca_verify/gx_sign.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ca/ca_verify/gx_sign.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_sleep_set.o: ./app_sleep_set.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_sleep_set.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/sys_setting_manage.o: ./sys_setting_manage.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./sys_setting_manage.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_t2_installation_guide.o: ./app_t2_installation_guide.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_t2_installation_guide.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pop_password.o: ./app_pop_password.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_pop_password.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_channel_edit.o: ./app_channel_edit.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_channel_edit.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/channel_edit.o: ./channel_edit.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./channel_edit.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pvr_media.o: ./app_pvr_media.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_pvr_media.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/full_screen.o: ./full_screen.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./full_screen.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_channel_info.o: ./app_channel_info.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_channel_info.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_dvbc_search.o: ./app_dvbc_search.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_dvbc_search.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_movie_info.o: ./player/app_movie_info.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_movie_info.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pic_set.o: ./player/app_pic_set.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_pic_set.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_music_set.o: ./player/app_music_set.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_music_set.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_music_view.o: ./player/app_music_view.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_music_view.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_file_browser.o: ./player/app_file_browser.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_file_browser.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_music_info.o: ./player/app_music_info.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_music_info.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/pmp_explorer.o: ./player/pmp_explorer/pmp_explorer.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/pmp_explorer/pmp_explorer.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_movie_view.o: ./player/app_movie_view.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_movie_view.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_text_set.o: ./player/app_text_set.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_text_set.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_media_info.o: ./player/app_media_info.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_media_info.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pic_info.o: ./player/app_pic_info.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_pic_info.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_movie_subt.o: ./player/app_movie_subt.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_movie_subt.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/pmp_spectrum.o: ./player/pmp_spectrum/pmp_spectrum.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/pmp_spectrum/pmp_spectrum.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/pmp_tags.o: ./player/pmp_tags/pmp_tags.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/pmp_tags/pmp_tags.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_down_view.o: ./player/app_down_view.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_down_view.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/file_view.o: ./player/file_view/file_view.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/file_view/file_view.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/play_manage.o: ./player/file_view/play_manage.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/file_view/play_manage.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/play_music.o: ./player/file_view/play_music.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/file_view/play_music.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/play_text.o: ./player/file_view/play_text.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/file_view/play_text.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/play_movie.o: ./player/file_view/play_movie.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/file_view/play_movie.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/play_pic.o: ./player/file_view/play_pic.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/file_view/play_pic.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/file_edit.o: ./player/file_view/file_edit.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/file_view/file_edit.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_volume.o: ./player/app_volume.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_volume.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_file_edit.o: ./player/app_file_edit.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_file_edit.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/pmp_setting.o: ./player/pmp_setting/pmp_setting.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/pmp_setting/pmp_setting.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_movie_set.o: ./player/app_movie_set.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_movie_set.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/pmp_dvb_sub.o: ./player/pmp_subtitle/pmp_dvb_sub.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/pmp_subtitle/pmp_dvb_sub.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/pmp_subtitle.o: ./player/pmp_subtitle/pmp_subtitle.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/pmp_subtitle/pmp_subtitle.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pmp_set.o: ./player/app_pmp_set.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_pmp_set.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pic_view.o: ./player/app_pic_view.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_pic_view.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_open_file.o: ./player/app_open_file.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_open_file.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/pmp_id3.o: ./player/pmp_id3/pmp_id3.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/pmp_id3/pmp_id3.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/lrc_list.o: ./player/pmp_lyrics/lrc_list.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/pmp_lyrics/lrc_list.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/lrc.o: ./player/pmp_lyrics/lrc.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/pmp_lyrics/lrc.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/pmp_lyrics.o: ./player/pmp_lyrics/pmp_lyrics.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/pmp_lyrics/pmp_lyrics.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/lrc_parser.o: ./player/pmp_lyrics/lrc_parser.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/pmp_lyrics/lrc_parser.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/lrc_tree.o: ./player/pmp_lyrics/lrc_tree.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/pmp_lyrics/lrc_tree.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/lrc_pool.o: ./player/pmp_lyrics/lrc_pool.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/pmp_lyrics/lrc_pool.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/lrc_dumpbuilder.o: ./player/pmp_lyrics/lrc_dumpbuilder.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/pmp_lyrics/lrc_dumpbuilder.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/lrc_time_tag.o: ./player/pmp_lyrics/lrc_time_tag.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/pmp_lyrics/lrc_time_tag.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/lrc_defaultbuilder.o: ./player/pmp_lyrics/lrc_defaultbuilder.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/pmp_lyrics/lrc_defaultbuilder.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/lrc_id_tag.o: ./player/pmp_lyrics/lrc_id_tag.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/pmp_lyrics/lrc_id_tag.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_text_view.o: ./player/app_text_view.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_text_view.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_media_centre.o: ./player/app_media_centre.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/app_media_centre.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/down_view.o: ./player/down_view/down_view.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/down_view/down_view.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/down_prog_pc.o: ./player/down_view/down_prog_pc.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/down_view/down_prog_pc.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/down_sitecfg.o: ./player/down_view/down_sitecfg.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/down_view/down_sitecfg.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/down_prog.o: ./player/down_view/down_prog.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/down_view/down_prog.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/down_prog_rss.o: ./player/down_view/down_prog_rss.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/down_view/down_prog_rss.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/down_prog_thunder.o: ./player/down_view/down_prog_thunder.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./player/down_view/down_prog_thunder.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_sysinfo.o: ./app_sysinfo.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_sysinfo.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_dvbc_frequency.o: ./app_dvbc_frequency.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_dvbc_frequency.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pop_tip.o: ./app_pop_tip.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_pop_tip.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_unicable.o: ./app_unicable.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_unicable.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_epg.o: ./app_epg.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_epg.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_time_setting.o: ./app_time_setting.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_time_setting.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_antenna_setting.o: ./app_antenna_setting.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_antenna_setting.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_dmsetting.o: ./app_dmsetting.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_dmsetting.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_volume_value.o: ./app_volume_value.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_volume_value.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_number.o: ./app_number.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_number.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_frontend.o: ./app_frontend.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_frontend.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/uart.o: ./factory_serialization/uart.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./factory_serialization/uart.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/uart_console.o: ./factory_serialization/uart_console.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./factory_serialization/uart_console.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/customer1.o: ./factory_serialization/customer1.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./factory_serialization/customer1.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/factory_3211.o: ./factory_serialization/factory_3211.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./factory_serialization/factory_3211.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/customer2.o: ./factory_serialization/customer2.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./factory_serialization/customer2.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/des3.o: ./factory_serialization/des3.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./factory_serialization/des3.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/register.o: ./factory_serialization/register.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./factory_serialization/register.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_factory_serialization.o: ./factory_serialization/menu/app_factory_serialization.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./factory_serialization/menu/app_factory_serialization.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/command.o: ./factory_serialization/command.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./factory_serialization/command.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_multifeed.o: ./app_multifeed.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_multifeed.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/comm_log.o: ./log/comm_log.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./log/comm_log.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/comm_socket.o: ./log/comm_socket.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./log/comm_socket.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_audio.o: ./app_audio.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_audio.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_msg_daemon.o: ./app_msg_daemon.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_msg_daemon.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_file_list.o: ./app_file_list.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_file_list.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_epg_menu.o: ./app_epg_menu.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_epg_menu.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_av_outputting.o: ./app_av_outputting.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_av_outputting.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_top.o: ./app_top.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_top.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_config.o: ./app_config.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_config.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_subtitling.o: ./app_subtitling.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_subtitling.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_language_setting.o: ./app_language_setting.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_language_setting.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_key_scancode.o: ./app_key_scancode.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_key_scancode.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_special_setting.o: ./app_special_setting.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_special_setting.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_main_menu.o: ./app_main_menu.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_main_menu.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_uart_setting.o: ./app_uart_setting.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_uart_setting.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_game_snake.o: ./app_game_snake.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_game_snake.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_dtmb_search.o: ./app_dtmb_search.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_dtmb_search.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_keyboard_language.o: ./app_keyboard_language.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_keyboard_language.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pop_option_list.o: ./app_pop_option_list.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_pop_option_list.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_game_tetris.o: ./app_game_tetris.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_game_tetris.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_full_screen.o: ./app_full_screen.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_full_screen.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_parental_lock.o: ./app_parental_lock.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_parental_lock.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_channel_list.o: ./app_channel_list.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_channel_list.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_dvbt2_search.o: ./app_dvbt2_search.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_dvbt2_search.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/box.o: ./box.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./box.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_dvbt2_freq_list.o: ./app_dvbt2_freq_list.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_dvbt2_freq_list.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_sdt.o: ./module/app_sdt.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_sdt.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/GxTkgs_location_manager.o: ./module/GxTkgs_location_manager.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/GxTkgs_location_manager.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_watchdog.o: ./module/app_watchdog.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_watchdog.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nim_dvbt.o: ./module/app_nim_dvbt.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_nim_dvbt.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_cat.o: ./module/app_cat.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_cat.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nim_dvbc.o: ./module/app_nim_dvbc.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_nim_dvbc.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cascam_osd_adapter.o: ./module/cascam/adapter/cascam_osd_adapter.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/adapter/cascam_osd_adapter.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cascam_os_adapter.o: ./module/cascam/adapter/cascam_os_adapter.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/adapter/cascam_os_adapter.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cascam_player_adapter.o: ./module/cascam/adapter/cascam_player_adapter.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/adapter/cascam_player_adapter.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cascam_platform.o: ./module/cascam/cascam_platform.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/cascam_platform.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_basicinfo.o: ./module/cascam/cas/nstv/adapter/nstv_basicinfo.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/cas/nstv/adapter/nstv_basicinfo.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_features.o: ./module/cascam/cas/nstv/adapter/nstv_features.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/cas/nstv/adapter/nstv_features.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_osd.o: ./module/cascam/cas/nstv/adapter/nstv_osd.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/cas/nstv/adapter/nstv_osd.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_lock_service.o: ./module/cascam/cas/nstv/adapter/nstv_lock_service.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/cas/nstv/adapter/nstv_lock_service.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_pin.o: ./module/cascam/cas/nstv/adapter/nstv_pin.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/cas/nstv/adapter/nstv_pin.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_mail.o: ./module/cascam/cas/nstv/adapter/nstv_mail.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/cas/nstv/adapter/nstv_mail.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_card_update.o: ./module/cascam/cas/nstv/adapter/nstv_card_update.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/cas/nstv/adapter/nstv_card_update.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_card_parent_child.o: ./module/cascam/cas/nstv/adapter/nstv_card_parent_child.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/cas/nstv/adapter/nstv_card_parent_child.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_work_time.o: ./module/cascam/cas/nstv/adapter/nstv_work_time.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/cas/nstv/adapter/nstv_work_time.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_entitle.o: ./module/cascam/cas/nstv/adapter/nstv_entitle.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/cas/nstv/adapter/nstv_entitle.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_ippv.o: ./module/cascam/cas/nstv/adapter/nstv_ippv.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/cas/nstv/adapter/nstv_ippv.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_event.o: ./module/cascam/cas/nstv/adapter/nstv_event.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/cas/nstv/adapter/nstv_event.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_operator.o: ./module/cascam/cas/nstv/adapter/nstv_operator.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/cas/nstv/adapter/nstv_operator.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_detitle.o: ./module/cascam/cas/nstv/adapter/nstv_detitle.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/cas/nstv/adapter/nstv_detitle.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_maturity.o: ./module/cascam/cas/nstv/adapter/nstv_maturity.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/cas/nstv/adapter/nstv_maturity.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_wallet.o: ./module/cascam/cas/nstv/adapter/nstv_wallet.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/cas/nstv/adapter/nstv_wallet.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_platform.o: ./module/cascam/cas/nstv/nstv_platform.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/cas/nstv/nstv_platform.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cascam_time.o: ./module/cascam/module/algorithm/cascam_time.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/module/algorithm/cascam_time.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cascam_module_osd.o: ./module/cascam/module/cascam_module_osd.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/cascam/module/cascam_module_osd.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ota_config.o: ./module/ota/app_ota_config.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/ota/app_ota_config.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ota_security_upgrade.o: ./module/ota/app_ota_security_upgrade.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/ota/app_ota_security_upgrade.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ota_upgrade.o: ./module/ota/app_ota_upgrade.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/ota/app_ota_upgrade.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ota_protocol.o: ./module/ota/app_ota_protocol.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/ota/app_ota_protocol.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_i2c.o: ./module/app_i2c.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_i2c.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_player_manage.o: ./module/app_player_manage.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_player_manage.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pat.o: ./module/app_pat.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_pat.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_factory_test.o: ./module/factory_test/app_factory_test.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/factory_test/app_factory_test.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_smartcard_test.o: ./module/factory_test/app_smartcard_test.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/factory_test/app_smartcard_test.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_test.o: ./module/factory_test/app_test.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/factory_test/app_test.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_play_control.o: ./module/app_play_control.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_play_control.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ecm.o: ./module/app_ecm.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_ecm.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_des_cache.o: ./module/des_descrambler/app_des_cache.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/des_descrambler/app_des_cache.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_des_descrambler.o: ./module/des_descrambler/app_des_descrambler.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/des_descrambler/app_des_descrambler.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nim_dvbs.o: ./module/app_nim_dvbs.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_nim_dvbs.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_rf_modu.o: ./module/rf_modu/app_rf_modu.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/rf_modu/app_rf_modu.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_network_service.o: ./module/app_network_service.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_network_service.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_time.o: ./module/app_time.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_time.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_wifi_json.o: ./module/app_wifi_json.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_wifi_json.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_psi_pmt.o: ./module/app_psi/app_psi_pmt.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_psi/app_psi_pmt.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_psi_pat.o: ./module/app_psi/app_psi_pat.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_psi/app_psi_pat.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ts.o: ./module/app_psi/app_ts.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_psi/app_ts.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_network_api.o: ./module/app_network_api.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_network_api.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/gxtkgs.o: ./module/gxtkgs.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/gxtkgs.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pvr.o: ./module/app_pvr.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_pvr.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/gxtkgs_preferred_list_manager.o: ./module/gxtkgs_preferred_list_manager.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/gxtkgs_preferred_list_manager.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_emm.o: ./module/app_emm.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_emm.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_input.o: ./module/app_input.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_input.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_system_init.o: ./module/app_system_init.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_system_init.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/tkgs_test.o: ./module/tkgs_test.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/tkgs_test.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nim_dtmb.o: ./module/app_nim_dtmb.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_nim_dtmb.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_utility.o: ./module/app_utility.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_utility.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_oem.o: ./module/app_oem.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_oem.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nim.o: ./module/app_nim.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_nim.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_id_manage.o: ./module/app_id_manage.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_id_manage.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ttx_subt.o: ./module/app_ttx_subt.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_ttx_subt.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pmt.o: ./module/app_pmt.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_pmt.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ioctl.o: ./module/app_ioctl.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_ioctl.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_fifo.o: ./module/app_fifo.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_fifo.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_chip_sn.o: ./module/app_chip_sn.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_chip_sn.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/tkgs_protocol.o: ./module/tkgs_protocol.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/tkgs_protocol.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/autotest_dvbs.o: ./module/autotest/autotest_dvbs.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/autotest/autotest_dvbs.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/common_autotest.o: ./module/autotest/common/common_autotest.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/autotest/common/common_autotest.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/common_commands.o: ./module/autotest/common/common_commands.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/autotest/common/common_commands.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/module_uart.o: ./module/autotest/module/module_uart.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/autotest/module/module_uart.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/module_device.o: ./module/autotest/module/module_device.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/autotest/module/module_device.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/module_tsfilter.o: ./module/autotest/module/module_tsfilter.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/autotest/module/module_tsfilter.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/module_command.o: ./module/autotest/module/module_command.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/autotest/module/module_command.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/module_frontend.o: ./module/autotest/module/module_frontend.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/autotest/module/module_frontend.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/service_autotest.o: ./module/autotest/service_autotest.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/autotest/service_autotest.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_wifi_iwpriv.o: ./module/app_wifi_iwpriv.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_wifi_iwpriv.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/gxtkgs_blocking_manager.o: ./module/gxtkgs_blocking_manager.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/gxtkgs_blocking_manager.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_chipotp.o: ./module/app_chipotp.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./module/app_chipotp.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_log_set.o: ./app_log_set.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_log_set.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_game.o: ./app_game.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_game.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_positioner_setting.o: ./app_positioner_setting.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_positioner_setting.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_tuner_config.o: ./app_tuner_config.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_tuner_config.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_sat_list.o: ./app_sat_list.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_sat_list.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_exshift_setting.o: ./app_exshift_setting.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_exshift_setting.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ota_ui.o: ./ota_monitor/app_ota_ui.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ota_monitor/app_ota_ui.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ota_nit.o: ./ota_monitor/app_ota_nit.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ota_monitor/app_ota_nit.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ota_monitor_pop.o: ./ota_monitor/menu/app_ota_monitor_pop.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./ota_monitor/menu/app_ota_monitor_pop.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_recall.o: ./app_recall.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_recall.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/dlna_player.o: ./dlna/dlna_player.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./dlna/dlna_player.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/dlna_ui.o: ./dlna/dlna_ui.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./dlna/dlna_ui.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/dlna_ipc.o: ./dlna/dlna_ipc.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./dlna/dlna_ipc.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/dlna_controller.o: ./dlna/dlna_controller.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./dlna/dlna_controller.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_upgrade.o: ./app_upgrade.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_upgrade.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_tp_list.o: ./app_tp_list.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_tp_list.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_mergedb_menu.o: ./mergedb/app_mergedb_menu.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./mergedb/app_mergedb_menu.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/exa_demo.o: ./exa_demo.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./exa_demo.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_netvideo.o: ./netapps/app_netvideo.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./netapps/app_netvideo.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_weather.o: ./netapps/app_weather.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./netapps/app_weather.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_netvideo_play.o: ./netapps/app_netvideo_play.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./netapps/app_netvideo_play.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_youtube.o: ./netapps/app_youtube.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./netapps/app_youtube.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_map.o: ./netapps/app_map.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./netapps/app_map.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_iptv_play.o: ./netapps/iptv/app_iptv_play.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./netapps/iptv/app_iptv_play.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_iptv_list_service.o: ./netapps/iptv/app_iptv_list_service.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./netapps/iptv/app_iptv_list_service.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_iptv_play_list.o: ./netapps/iptv/app_iptv_play_list.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./netapps/iptv/app_iptv_play_list.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_iptv.o: ./netapps/iptv/app_iptv.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./netapps/iptv/app_iptv.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_netapps_common.o: ./netapps/app_netapps_common.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./netapps/app_netapps_common.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_netapps_service.o: ./netapps/app_netapps_service.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./netapps/app_netapps_service.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pop_book.o: ./app_pop_book.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_pop_book.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_color_setting.o: ./app_color_setting.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_color_setting.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_timer_edit.o: ./app_timer_edit.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_timer_edit.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_send_msg.o: ./msg/app_send_msg.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./msg/app_send_msg.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_usb_speed.o: ./app_usb_speed.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_usb_speed.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_search.o: ./app_search.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_search.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_shortcut_pop.o: ./shortcut_monitor/app_shortcut_pop.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./shortcut_monitor/app_shortcut_pop.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pvr_setting.o: ./app_pvr_setting.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_pvr_setting.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_find.o: ./app_find.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_find.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_zoom.o: ./app_zoom.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./app_zoom.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/signal_connect_cplus.opp: signal_connect_cplus.cpp
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  signal_connect_cplus.cpp
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/bsp.opp: bsp.cpp
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  bsp.cpp
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_wifi.o: ./linux_only/app_wifi.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./linux_only/app_wifi.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_network.o: ./linux_only/app_network.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./linux_only/app_network.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_3g.o: ./linux_only/app_3g.c
+	@echo -e "compiling [032m[csky-elf-gcc][0m":  ./linux_only/app_3g.c
+	csky-elf-gcc $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pvr_bar.c: ./app_pvr_bar.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_pvr_bar.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_tuner_select.c: ./app_tuner_select.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_tuner_select.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ota.c: ./app_ota.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_ota.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_full_keyboard.c: ./app_full_keyboard.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_full_keyboard.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app.c: ./app.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_book.c: ./app_book.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_book.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ota_loader_pop.c: ./ota_loader/app_ota_loader_pop.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ota_loader/app_ota_loader_pop.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_system_setting_opt.c: ./app_system_setting_opt.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_system_setting_opt.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_timer_setting.c: ./app_timer_setting.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_timer_setting.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_osd_setting.c: ./app_osd_setting.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_osd_setting.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/main.c: ./main.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./main.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_multiscreen.c: ./app_multiscreen.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_multiscreen.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_extend.c: ./extend/app_extend.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./extend/app_extend.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/descrambler.c: ./extend/descrambler.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./extend/descrambler.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/porting_common.c: ./extend/porting/porting_common.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./extend/porting/porting_common.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_descrambler.c: ./extend/app_descrambler.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./extend/app_descrambler.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_tkgs_background_upgrade.c: ./tkgs/app_tkgs_background_upgrade.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./tkgs/app_tkgs_background_upgrade.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_hidden_location.c: ./tkgs/app_hidden_location.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./tkgs/app_hidden_location.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_visible_location.c: ./tkgs/app_visible_location.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./tkgs/app_visible_location.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_tkgs_upgrade_process.c: ./tkgs/app_tkgs_upgrade_process.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./tkgs/app_tkgs_upgrade_process.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_preferred_list.c: ./tkgs/app_preferred_list.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./tkgs/app_preferred_list.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_tkgs_upgrade.c: ./tkgs/app_tkgs_upgrade.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./tkgs/app_tkgs_upgrade.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ca_menu.c: ./ca/app_ca_menu.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/app_ca_menu.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cmm_cascam_dialog1.c: ./ca/common_menu/cmm_cascam_dialog1.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/common_menu/cmm_cascam_dialog1.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cmm_cascam_dialog3.c: ./ca/common_menu/cmm_cascam_dialog3.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/common_menu/cmm_cascam_dialog3.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cmm_cascam_dialog5.c: ./ca/common_menu/cmm_cascam_dialog5.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/common_menu/cmm_cascam_dialog5.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cmm_cascam_dialog.c: ./ca/common_menu/cmm_cascam_dialog.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/common_menu/cmm_cascam_dialog.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cmm_cascam_dialog2.c: ./ca/common_menu/cmm_cascam_dialog2.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/common_menu/cmm_cascam_dialog2.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cmm_cascam_dialog6.c: ./ca/common_menu/cmm_cascam_dialog6.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/common_menu/cmm_cascam_dialog6.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cmm_cascam_dialog4.c: ./ca/common_menu/cmm_cascam_dialog4.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/common_menu/cmm_cascam_dialog4.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_utility.c: ./ca/nstv/app_nstv_utility.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_utility.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_rolling_osd.c: ./ca/nstv/app_nstv_rolling_osd.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_rolling_osd.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_ippv.c: ./ca/nstv/app_nstv_ippv.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_ippv.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_fingerprint.c: ./ca/nstv/app_nstv_fingerprint.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_fingerprint.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_operator.c: ./ca/nstv/app_nstv_operator.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_operator.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_lock_service.c: ./ca/nstv/app_nstv_lock_service.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_lock_service.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_maturity.c: ./ca/nstv/app_nstv_maturity.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_maturity.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_mail.c: ./ca/nstv/app_nstv_mail.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_mail.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_password.c: ./ca/nstv/app_nstv_password.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_password.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_card_parent_child.c: ./ca/nstv/app_nstv_card_parent_child.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_card_parent_child.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_action.c: ./ca/nstv/app_nstv_action.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_action.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_detitle.c: ./ca/nstv/app_nstv_detitle.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_detitle.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_curtain.c: ./ca/nstv/app_nstv_curtain.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_curtain.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_entitlement_skynet.c: ./ca/nstv/app_nstv_entitlement_skynet.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_entitlement_skynet.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_update_info.c: ./ca/nstv/app_nstv_update_info.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_update_info.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_ippv_notify.c: ./ca/nstv/app_nstv_ippv_notify.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_ippv_notify.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_card_pair_info.c: ./ca/nstv/app_nstv_card_pair_info.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_card_pair_info.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_message.c: ./ca/nstv/app_nstv_message.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_message.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_pin.c: ./ca/nstv/app_nstv_pin.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_pin.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_work_time.c: ./ca/nstv/app_nstv_work_time.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_work_time.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_wallet.c: ./ca/nstv/app_nstv_wallet.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_wallet.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_basicinfo.c: ./ca/nstv/app_nstv_basicinfo.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_basicinfo.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_menu.c: ./ca/nstv/app_nstv_menu.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_menu.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_entitlement.c: ./ca/nstv/app_nstv_entitlement.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_entitlement.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nstv_features.c: ./ca/nstv/app_nstv_features.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/nstv/app_nstv_features.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/gx_cdcas.c: ./ca/ca_verify/cdcas/gx_cdcas.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/ca_verify/cdcas/gx_cdcas.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/gx_sign.c: ./ca/ca_verify/gx_sign.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ca/ca_verify/gx_sign.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_sleep_set.c: ./app_sleep_set.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_sleep_set.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/sys_setting_manage.c: ./sys_setting_manage.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./sys_setting_manage.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_t2_installation_guide.c: ./app_t2_installation_guide.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_t2_installation_guide.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pop_password.c: ./app_pop_password.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_pop_password.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_channel_edit.c: ./app_channel_edit.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_channel_edit.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/channel_edit.c: ./channel_edit.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./channel_edit.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pvr_media.c: ./app_pvr_media.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_pvr_media.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/full_screen.c: ./full_screen.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./full_screen.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_channel_info.c: ./app_channel_info.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_channel_info.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_dvbc_search.c: ./app_dvbc_search.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_dvbc_search.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_movie_info.c: ./player/app_movie_info.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_movie_info.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pic_set.c: ./player/app_pic_set.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_pic_set.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_music_set.c: ./player/app_music_set.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_music_set.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_music_view.c: ./player/app_music_view.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_music_view.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_file_browser.c: ./player/app_file_browser.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_file_browser.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_music_info.c: ./player/app_music_info.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_music_info.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/pmp_explorer.c: ./player/pmp_explorer/pmp_explorer.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/pmp_explorer/pmp_explorer.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_movie_view.c: ./player/app_movie_view.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_movie_view.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_text_set.c: ./player/app_text_set.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_text_set.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_media_info.c: ./player/app_media_info.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_media_info.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pic_info.c: ./player/app_pic_info.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_pic_info.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_movie_subt.c: ./player/app_movie_subt.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_movie_subt.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/pmp_spectrum.c: ./player/pmp_spectrum/pmp_spectrum.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/pmp_spectrum/pmp_spectrum.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/pmp_tags.c: ./player/pmp_tags/pmp_tags.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/pmp_tags/pmp_tags.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_down_view.c: ./player/app_down_view.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_down_view.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/file_view.c: ./player/file_view/file_view.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/file_view/file_view.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/play_manage.c: ./player/file_view/play_manage.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/file_view/play_manage.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/play_music.c: ./player/file_view/play_music.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/file_view/play_music.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/play_text.c: ./player/file_view/play_text.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/file_view/play_text.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/play_movie.c: ./player/file_view/play_movie.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/file_view/play_movie.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/play_pic.c: ./player/file_view/play_pic.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/file_view/play_pic.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/file_edit.c: ./player/file_view/file_edit.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/file_view/file_edit.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_volume.c: ./player/app_volume.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_volume.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_file_edit.c: ./player/app_file_edit.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_file_edit.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/pmp_setting.c: ./player/pmp_setting/pmp_setting.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/pmp_setting/pmp_setting.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_movie_set.c: ./player/app_movie_set.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_movie_set.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/pmp_dvb_sub.c: ./player/pmp_subtitle/pmp_dvb_sub.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/pmp_subtitle/pmp_dvb_sub.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/pmp_subtitle.c: ./player/pmp_subtitle/pmp_subtitle.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/pmp_subtitle/pmp_subtitle.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pmp_set.c: ./player/app_pmp_set.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_pmp_set.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pic_view.c: ./player/app_pic_view.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_pic_view.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_open_file.c: ./player/app_open_file.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_open_file.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/pmp_id3.c: ./player/pmp_id3/pmp_id3.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/pmp_id3/pmp_id3.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/lrc_list.c: ./player/pmp_lyrics/lrc_list.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/pmp_lyrics/lrc_list.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/lrc.c: ./player/pmp_lyrics/lrc.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/pmp_lyrics/lrc.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/pmp_lyrics.c: ./player/pmp_lyrics/pmp_lyrics.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/pmp_lyrics/pmp_lyrics.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/lrc_parser.c: ./player/pmp_lyrics/lrc_parser.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/pmp_lyrics/lrc_parser.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/lrc_tree.c: ./player/pmp_lyrics/lrc_tree.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/pmp_lyrics/lrc_tree.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/lrc_pool.c: ./player/pmp_lyrics/lrc_pool.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/pmp_lyrics/lrc_pool.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/lrc_dumpbuilder.c: ./player/pmp_lyrics/lrc_dumpbuilder.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/pmp_lyrics/lrc_dumpbuilder.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/lrc_time_tag.c: ./player/pmp_lyrics/lrc_time_tag.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/pmp_lyrics/lrc_time_tag.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/lrc_defaultbuilder.c: ./player/pmp_lyrics/lrc_defaultbuilder.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/pmp_lyrics/lrc_defaultbuilder.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/lrc_id_tag.c: ./player/pmp_lyrics/lrc_id_tag.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/pmp_lyrics/lrc_id_tag.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_text_view.c: ./player/app_text_view.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_text_view.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_media_centre.c: ./player/app_media_centre.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/app_media_centre.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/down_view.c: ./player/down_view/down_view.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/down_view/down_view.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/down_prog_pc.c: ./player/down_view/down_prog_pc.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/down_view/down_prog_pc.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/down_sitecfg.c: ./player/down_view/down_sitecfg.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/down_view/down_sitecfg.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/down_prog.c: ./player/down_view/down_prog.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/down_view/down_prog.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/down_prog_rss.c: ./player/down_view/down_prog_rss.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/down_view/down_prog_rss.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/down_prog_thunder.c: ./player/down_view/down_prog_thunder.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./player/down_view/down_prog_thunder.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_sysinfo.c: ./app_sysinfo.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_sysinfo.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_dvbc_frequency.c: ./app_dvbc_frequency.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_dvbc_frequency.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pop_tip.c: ./app_pop_tip.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_pop_tip.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_unicable.c: ./app_unicable.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_unicable.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_epg.c: ./app_epg.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_epg.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_time_setting.c: ./app_time_setting.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_time_setting.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_antenna_setting.c: ./app_antenna_setting.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_antenna_setting.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_dmsetting.c: ./app_dmsetting.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_dmsetting.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_volume_value.c: ./app_volume_value.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_volume_value.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_number.c: ./app_number.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_number.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_frontend.c: ./app_frontend.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_frontend.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/uart.c: ./factory_serialization/uart.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./factory_serialization/uart.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/uart_console.c: ./factory_serialization/uart_console.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./factory_serialization/uart_console.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/customer1.c: ./factory_serialization/customer1.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./factory_serialization/customer1.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/factory_3211.c: ./factory_serialization/factory_3211.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./factory_serialization/factory_3211.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/customer2.c: ./factory_serialization/customer2.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./factory_serialization/customer2.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/des3.c: ./factory_serialization/des3.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./factory_serialization/des3.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/register.c: ./factory_serialization/register.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./factory_serialization/register.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_factory_serialization.c: ./factory_serialization/menu/app_factory_serialization.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./factory_serialization/menu/app_factory_serialization.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/command.c: ./factory_serialization/command.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./factory_serialization/command.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_multifeed.c: ./app_multifeed.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_multifeed.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/comm_log.c: ./log/comm_log.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./log/comm_log.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/comm_socket.c: ./log/comm_socket.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./log/comm_socket.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_audio.c: ./app_audio.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_audio.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_msg_daemon.c: ./app_msg_daemon.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_msg_daemon.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_file_list.c: ./app_file_list.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_file_list.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_epg_menu.c: ./app_epg_menu.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_epg_menu.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_av_outputting.c: ./app_av_outputting.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_av_outputting.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_top.c: ./app_top.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_top.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_config.c: ./app_config.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_config.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_subtitling.c: ./app_subtitling.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_subtitling.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_language_setting.c: ./app_language_setting.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_language_setting.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_key_scancode.c: ./app_key_scancode.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_key_scancode.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_special_setting.c: ./app_special_setting.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_special_setting.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_main_menu.c: ./app_main_menu.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_main_menu.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_uart_setting.c: ./app_uart_setting.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_uart_setting.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_game_snake.c: ./app_game_snake.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_game_snake.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_dtmb_search.c: ./app_dtmb_search.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_dtmb_search.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_keyboard_language.c: ./app_keyboard_language.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_keyboard_language.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pop_option_list.c: ./app_pop_option_list.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_pop_option_list.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_game_tetris.c: ./app_game_tetris.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_game_tetris.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_full_screen.c: ./app_full_screen.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_full_screen.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_parental_lock.c: ./app_parental_lock.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_parental_lock.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_channel_list.c: ./app_channel_list.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_channel_list.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_dvbt2_search.c: ./app_dvbt2_search.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_dvbt2_search.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/box.c: ./box.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./box.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_dvbt2_freq_list.c: ./app_dvbt2_freq_list.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_dvbt2_freq_list.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_sdt.c: ./module/app_sdt.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_sdt.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/GxTkgs_location_manager.c: ./module/GxTkgs_location_manager.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/GxTkgs_location_manager.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_watchdog.c: ./module/app_watchdog.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_watchdog.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nim_dvbt.c: ./module/app_nim_dvbt.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_nim_dvbt.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_cat.c: ./module/app_cat.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_cat.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nim_dvbc.c: ./module/app_nim_dvbc.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_nim_dvbc.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cascam_osd_adapter.c: ./module/cascam/adapter/cascam_osd_adapter.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/adapter/cascam_osd_adapter.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cascam_os_adapter.c: ./module/cascam/adapter/cascam_os_adapter.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/adapter/cascam_os_adapter.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cascam_player_adapter.c: ./module/cascam/adapter/cascam_player_adapter.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/adapter/cascam_player_adapter.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cascam_platform.c: ./module/cascam/cascam_platform.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/cascam_platform.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_basicinfo.c: ./module/cascam/cas/nstv/adapter/nstv_basicinfo.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/cas/nstv/adapter/nstv_basicinfo.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_features.c: ./module/cascam/cas/nstv/adapter/nstv_features.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/cas/nstv/adapter/nstv_features.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_osd.c: ./module/cascam/cas/nstv/adapter/nstv_osd.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/cas/nstv/adapter/nstv_osd.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_lock_service.c: ./module/cascam/cas/nstv/adapter/nstv_lock_service.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/cas/nstv/adapter/nstv_lock_service.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_pin.c: ./module/cascam/cas/nstv/adapter/nstv_pin.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/cas/nstv/adapter/nstv_pin.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_mail.c: ./module/cascam/cas/nstv/adapter/nstv_mail.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/cas/nstv/adapter/nstv_mail.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_card_update.c: ./module/cascam/cas/nstv/adapter/nstv_card_update.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/cas/nstv/adapter/nstv_card_update.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_card_parent_child.c: ./module/cascam/cas/nstv/adapter/nstv_card_parent_child.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/cas/nstv/adapter/nstv_card_parent_child.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_work_time.c: ./module/cascam/cas/nstv/adapter/nstv_work_time.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/cas/nstv/adapter/nstv_work_time.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_entitle.c: ./module/cascam/cas/nstv/adapter/nstv_entitle.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/cas/nstv/adapter/nstv_entitle.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_ippv.c: ./module/cascam/cas/nstv/adapter/nstv_ippv.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/cas/nstv/adapter/nstv_ippv.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_event.c: ./module/cascam/cas/nstv/adapter/nstv_event.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/cas/nstv/adapter/nstv_event.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_operator.c: ./module/cascam/cas/nstv/adapter/nstv_operator.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/cas/nstv/adapter/nstv_operator.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_detitle.c: ./module/cascam/cas/nstv/adapter/nstv_detitle.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/cas/nstv/adapter/nstv_detitle.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_maturity.c: ./module/cascam/cas/nstv/adapter/nstv_maturity.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/cas/nstv/adapter/nstv_maturity.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_wallet.c: ./module/cascam/cas/nstv/adapter/nstv_wallet.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/cas/nstv/adapter/nstv_wallet.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/nstv_platform.c: ./module/cascam/cas/nstv/nstv_platform.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/cas/nstv/nstv_platform.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cascam_time.c: ./module/cascam/module/algorithm/cascam_time.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/module/algorithm/cascam_time.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/cascam_module_osd.c: ./module/cascam/module/cascam_module_osd.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/cascam/module/cascam_module_osd.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ota_config.c: ./module/ota/app_ota_config.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/ota/app_ota_config.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ota_security_upgrade.c: ./module/ota/app_ota_security_upgrade.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/ota/app_ota_security_upgrade.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ota_upgrade.c: ./module/ota/app_ota_upgrade.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/ota/app_ota_upgrade.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ota_protocol.c: ./module/ota/app_ota_protocol.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/ota/app_ota_protocol.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_i2c.c: ./module/app_i2c.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_i2c.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_player_manage.c: ./module/app_player_manage.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_player_manage.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pat.c: ./module/app_pat.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_pat.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_factory_test.c: ./module/factory_test/app_factory_test.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/factory_test/app_factory_test.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_smartcard_test.c: ./module/factory_test/app_smartcard_test.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/factory_test/app_smartcard_test.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_test.c: ./module/factory_test/app_test.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/factory_test/app_test.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_play_control.c: ./module/app_play_control.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_play_control.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ecm.c: ./module/app_ecm.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_ecm.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_des_cache.c: ./module/des_descrambler/app_des_cache.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/des_descrambler/app_des_cache.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_des_descrambler.c: ./module/des_descrambler/app_des_descrambler.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/des_descrambler/app_des_descrambler.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nim_dvbs.c: ./module/app_nim_dvbs.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_nim_dvbs.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_rf_modu.c: ./module/rf_modu/app_rf_modu.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/rf_modu/app_rf_modu.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_network_service.c: ./module/app_network_service.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_network_service.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_time.c: ./module/app_time.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_time.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_wifi_json.c: ./module/app_wifi_json.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_wifi_json.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_psi_pmt.c: ./module/app_psi/app_psi_pmt.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_psi/app_psi_pmt.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_psi_pat.c: ./module/app_psi/app_psi_pat.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_psi/app_psi_pat.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ts.c: ./module/app_psi/app_ts.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_psi/app_ts.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_network_api.c: ./module/app_network_api.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_network_api.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/gxtkgs.c: ./module/gxtkgs.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/gxtkgs.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pvr.c: ./module/app_pvr.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_pvr.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/gxtkgs_preferred_list_manager.c: ./module/gxtkgs_preferred_list_manager.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/gxtkgs_preferred_list_manager.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_emm.c: ./module/app_emm.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_emm.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_input.c: ./module/app_input.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_input.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_system_init.c: ./module/app_system_init.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_system_init.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/tkgs_test.c: ./module/tkgs_test.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/tkgs_test.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nim_dtmb.c: ./module/app_nim_dtmb.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_nim_dtmb.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_utility.c: ./module/app_utility.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_utility.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_oem.c: ./module/app_oem.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_oem.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_nim.c: ./module/app_nim.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_nim.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_id_manage.c: ./module/app_id_manage.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_id_manage.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ttx_subt.c: ./module/app_ttx_subt.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_ttx_subt.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pmt.c: ./module/app_pmt.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_pmt.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ioctl.c: ./module/app_ioctl.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_ioctl.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_fifo.c: ./module/app_fifo.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_fifo.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_chip_sn.c: ./module/app_chip_sn.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_chip_sn.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/tkgs_protocol.c: ./module/tkgs_protocol.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/tkgs_protocol.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/autotest_dvbs.c: ./module/autotest/autotest_dvbs.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/autotest/autotest_dvbs.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/common_autotest.c: ./module/autotest/common/common_autotest.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/autotest/common/common_autotest.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/common_commands.c: ./module/autotest/common/common_commands.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/autotest/common/common_commands.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/module_uart.c: ./module/autotest/module/module_uart.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/autotest/module/module_uart.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/module_device.c: ./module/autotest/module/module_device.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/autotest/module/module_device.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/module_tsfilter.c: ./module/autotest/module/module_tsfilter.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/autotest/module/module_tsfilter.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/module_command.c: ./module/autotest/module/module_command.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/autotest/module/module_command.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/module_frontend.c: ./module/autotest/module/module_frontend.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/autotest/module/module_frontend.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/service_autotest.c: ./module/autotest/service_autotest.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/autotest/service_autotest.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_wifi_iwpriv.c: ./module/app_wifi_iwpriv.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_wifi_iwpriv.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/gxtkgs_blocking_manager.c: ./module/gxtkgs_blocking_manager.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/gxtkgs_blocking_manager.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_chipotp.c: ./module/app_chipotp.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./module/app_chipotp.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_log_set.c: ./app_log_set.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_log_set.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_game.c: ./app_game.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_game.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_positioner_setting.c: ./app_positioner_setting.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_positioner_setting.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_tuner_config.c: ./app_tuner_config.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_tuner_config.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_sat_list.c: ./app_sat_list.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_sat_list.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_exshift_setting.c: ./app_exshift_setting.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_exshift_setting.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ota_ui.c: ./ota_monitor/app_ota_ui.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ota_monitor/app_ota_ui.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ota_nit.c: ./ota_monitor/app_ota_nit.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ota_monitor/app_ota_nit.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_ota_monitor_pop.c: ./ota_monitor/menu/app_ota_monitor_pop.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./ota_monitor/menu/app_ota_monitor_pop.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_recall.c: ./app_recall.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_recall.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/dlna_player.c: ./dlna/dlna_player.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./dlna/dlna_player.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/dlna_ui.c: ./dlna/dlna_ui.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./dlna/dlna_ui.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/dlna_ipc.c: ./dlna/dlna_ipc.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./dlna/dlna_ipc.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/dlna_controller.c: ./dlna/dlna_controller.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./dlna/dlna_controller.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_upgrade.c: ./app_upgrade.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_upgrade.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_tp_list.c: ./app_tp_list.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_tp_list.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_mergedb_menu.c: ./mergedb/app_mergedb_menu.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./mergedb/app_mergedb_menu.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/exa_demo.c: ./exa_demo.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./exa_demo.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_netvideo.c: ./netapps/app_netvideo.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./netapps/app_netvideo.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_weather.c: ./netapps/app_weather.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./netapps/app_weather.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_netvideo_play.c: ./netapps/app_netvideo_play.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./netapps/app_netvideo_play.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_youtube.c: ./netapps/app_youtube.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./netapps/app_youtube.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_map.c: ./netapps/app_map.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./netapps/app_map.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_iptv_play.c: ./netapps/iptv/app_iptv_play.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./netapps/iptv/app_iptv_play.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_iptv_list_service.c: ./netapps/iptv/app_iptv_list_service.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./netapps/iptv/app_iptv_list_service.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_iptv_play_list.c: ./netapps/iptv/app_iptv_play_list.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./netapps/iptv/app_iptv_play_list.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_iptv.c: ./netapps/iptv/app_iptv.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./netapps/iptv/app_iptv.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_netapps_common.c: ./netapps/app_netapps_common.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./netapps/app_netapps_common.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_netapps_service.c: ./netapps/app_netapps_service.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./netapps/app_netapps_service.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pop_book.c: ./app_pop_book.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_pop_book.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_color_setting.c: ./app_color_setting.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_color_setting.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_timer_edit.c: ./app_timer_edit.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_timer_edit.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_send_msg.c: ./msg/app_send_msg.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./msg/app_send_msg.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_usb_speed.c: ./app_usb_speed.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_usb_speed.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_search.c: ./app_search.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_search.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_shortcut_pop.c: ./shortcut_monitor/app_shortcut_pop.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./shortcut_monitor/app_shortcut_pop.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_pvr_setting.c: ./app_pvr_setting.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_pvr_setting.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_find.c: ./app_find.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_find.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_zoom.c: ./app_zoom.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./app_zoom.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/signal_connect_cplus.o: signal_connect_cplus.cpp
+	@echo -e "compiling [032m[csky-elf-g++][0m":  signal_connect_cplus.cpp
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/bsp.o: bsp.cpp
+	@echo -e "compiling [032m[csky-elf-g++][0m":  bsp.cpp
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_wifi.c: ./linux_only/app_wifi.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./linux_only/app_wifi.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_network.c: ./linux_only/app_network.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./linux_only/app_network.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^
+/home/allen/samba/6611_nstv/bdd/solution/output/objects/app_3g.c: ./linux_only/app_3g.c
+	@echo -e "compiling [032m[csky-elf-g++][0m":  ./linux_only/app_3g.c
+	csky-elf-g++ $(CFLAGS) -c -o $@ $^

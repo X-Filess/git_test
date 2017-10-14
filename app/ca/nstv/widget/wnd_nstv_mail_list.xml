@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget class="window" style="default" name="wnd_nstv_mail_list">
+    <property>
+        <rect>[0,0,1024,576]</rect>
+        <forecolor>[text_color,text_color,text_color]</forecolor>
+        <backcolor>[osd_trans,osd_trans,osd_trans]</backcolor>
+    </property>
+    <signal>
+        <destroy>On_wnd_nstv_mail_list_destroy</destroy>
+        <keypress>On_wnd_nstv_mail_list_keypress</keypress>
+        <got_focus>On_wnd_nstv_mail_list_got_focus</got_focus>
+    </signal>
+    <children>
+        <widget class="image" style="default" name="img_nstv_mail_list_back">
+            <property>
+                <rect>[0,0,1024,576]</rect>
+                <forecolor>[default_color,default_color,default_color]</forecolor>
+                <backcolor>[window_bg_color,window_bg_color,window_bg_color]</backcolor>
+                <mode>multiple</mode>
+                <img></img>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_nstv_mail_list_title">
+            <property>
+                <rect>[224,50,480,52]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <font>font_main</font>
+                <alignment>hcentre|vcentre</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="image" style="default" name="img_nstv_mail_list_title">
+            <property>
+                <rect>[160,40,62,62]</rect>
+                <state>hide</state>
+                <forecolor>[default_color,default_color,default_color]</forecolor>
+                <backcolor>[default_color,default_color,default_color]</backcolor>
+                <mode>single</mode>
+                <img>yx_menuicon2_ca.bmp</img>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_nstv_mail_list_total_num_l">
+            <property>
+                <rect>[539,144,80,30]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string>Total:</string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_nstv_mail_list_total_num">
+            <property>
+                <rect>[620,144,80,30]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_nstv_mail_list_unread_num_l">
+            <property>
+                <rect>[700,144,80,30]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string>Unread:</string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_nstv_mail_list_unread_num">
+            <property>
+                <rect>[780,144,80,30]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="listview" style="default" name="lsv_nstv_mail_list_list">
+            <property>
+                <rect>[160,180,705,180]</rect>
+                <forecolor>[default_color,default_color,default_color]</forecolor>
+                <backcolor>[window_bg_color,window_bg_color,window_bg_color]</backcolor>
+                <roll_time>100</roll_time>
+		        <format>enable_roll</format>
+                <focus_img>s_bar_long_focus.bmp</focus_img>
+                <item_active_image>s_bar_long_focus.bmp</item_active_image>
+                <i18n>true</i18n>
+                <item_rect>[0,0,696,30]</item_rect>
+                <item_fore_color>[text_color,text_focus_color,text_color]</item_fore_color>
+                <item_back_color>[window_bg_color,window_bg_color,window_bg_color]</item_back_color>
+            </property>
+            <signal>
+                <get_total>On_lsv_nstv_mail_list_list_get_total</get_total>
+                <get_data>On_lsv_nstv_mail_list_list_get_data</get_data>
+            </signal>
+            <children>
+                <widget class="header" style="default" name="hdr_nstv_mail_list_no">
+                    <property>
+                        <rect>[0,0,696,30]</rect>
+                        <forecolor>[text_tag_color,text_tag_color,text_tag_color]</forecolor>
+                        <backcolor>[window_bg_color,window_bg_color,window_bg_color]</backcolor>
+                        <format>headershow</format>
+                        <colum_number>5</colum_number>
+                    </property>
+                    <children>
+                        <widget class="text" style="default" name="hdr_nstv_mail_list_number">
+                            <property>
+                                <rect>[0,0,60,30]</rect>
+                                <forecolor>[text_tag_color,text_tag_color,text_tag_color]</forecolor>
+                                <backcolor>[window_bg_color,window_bg_color,window_bg_color]</backcolor>
+                                <alignment>left|vcentre</alignment>
+                                <string>No.</string>
+                                <format>static</format>
+                            </property>
+                        </widget>
+                        <widget class="text" style="default" name="hdr_nstv_mail_list_importance">
+                            <property>
+                                <rect>[60,0,110,30]</rect>
+                                <forecolor>[text_tag_color,text_tag_color,text_tag_color]</forecolor>
+                                <backcolor>[window_bg_color,window_bg_color,window_bg_color]</backcolor>
+                                <string>Importance</string>
+                                <format>static</format>
+                            </property>
+                        </widget>
+                        <widget class="text" style="default" name="hdr_nstv_mail_list_read">
+                            <property>
+                                <rect>[170,0,80,30]</rect>
+                                <forecolor>[text_tag_color,text_tag_color,text_tag_color]</forecolor>
+                                <backcolor>[window_bg_color,window_bg_color,window_bg_color]</backcolor>
+                                <string>Read</string>
+                                <format>static</format>
+                            </property>
+                        </widget>
+                        <widget class="text" style="default" name="hdr_nstv_mail_list_start_time">
+                            <property>
+                                <rect>[250,0,200,30]</rect>
+                                <forecolor>[text_tag_color,text_tag_color,text_tag_color]</forecolor>
+                                <backcolor>[window_bg_color,window_bg_color,window_bg_color]</backcolor>
+                                <string>Send Time</string>
+                                <format>static</format>
+                            </property>
+                        </widget>
+                        <widget class="text" style="default" name="hdr_nstv_mail_list_end_time">
+                            <property>
+                                <rect>[450,0,255,30]</rect>
+                                <forecolor>[text_tag_color,text_tag_color,text_tag_color]</forecolor>
+                                <backcolor>[window_bg_color,window_bg_color,window_bg_color]</backcolor>
+                                <string>Subject</string>
+                                <format>static</format>
+                            </property>
+                        </widget>
+                    </children>
+                </widget>
+                <widget class="scrollbar" style="default" name="scb_nstv_mail_list_list">
+                    <property>
+                        <rect>[696,30,9,150]</rect>
+                        <forecolor>[text_color,text_color,text_color]</forecolor>
+                        <backcolor>[default_color,default_color,default_color]</backcolor>
+                        <back_img>s_roll_m.bmp</back_img>
+                        <arrow_up>s_roll_t.bmp</arrow_up>
+                        <arrow_down>s_roll_d.bmp</arrow_down>
+                        <fore_img>s_roll_button.bmp</fore_img>
+                        <format>scroll_show</format>
+                    </property>
+                </widget>
+                <widget class="listitem" style="default" name="lsi_nstv_mail_list_1"/>
+                <widget class="listitem" style="default" name="lsi_nstv_mail_list_2"/>
+                <widget class="listitem" style="default" name="lsi_nstv_mail_list_3"/>
+                <widget class="listitem" style="default" name="lsi_nstv_mail_list_4"/>
+                <widget class="listitem" style="default" name="lsi_nstv_mail_list_5"/>
+            </children>
+        </widget>
+        <widget class="image" style="default" name="img_nstv_mail_list_item1">
+            <property>
+                <rect>[66,517,16,16]</rect>
+                <forecolor>[default_color,default_color,default_color]</forecolor>
+                <backcolor>[default_color,default_color,default_color]</backcolor>
+                <mode>single</mode>
+                <img>s_ts_red.bmp</img>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_nstv_mail_list_item1">
+            <property>
+                <rect>[84,511,240,28]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string>Delete</string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="image" style="default" name="img_nstv_mail_list_item2">
+            <property>
+                <rect>[329,517,16,16]</rect>
+                <forecolor>[default_color,default_color,default_color]</forecolor>
+                <backcolor>[default_color,default_color,default_color]</backcolor>
+                <mode>single</mode>
+                <img>s_ts_green.bmp</img>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_nstv_mail_list_item2">
+            <property>
+                <rect>[348,511,160,28]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string>Delete All</string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="image" style="default" name="img_nstv_mail_list_item3">
+            <property>
+                <rect>[521,516,38,19]</rect>
+                <forecolor>[default_color,default_color,default_color]</forecolor>
+                <backcolor>[default_color,default_color,default_color]</backcolor>
+                <mode>single</mode>
+                <img>s_ts_ok.bmp</img>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_nstv_mail_list_item3">
+            <property>
+                <rect>[564,511,160,28]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string>Read</string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="image" style="default" name="img_nstv_mail_list_menu">
+            <property>
+                <rect>[747,516,41,19]</rect>
+                <state>hide</state>
+                <forecolor>[default_color,default_color,default_color]</forecolor>
+                <backcolor>[default_color,default_color,default_color]</backcolor>
+                <mode>single</mode>
+                <img>s_ts_menu.bmp</img>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="wnd_nstv_mail_list_text569">
+            <property>
+                <rect>[791,511,180,28]</rect>
+                <state>hide</state>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string>Return</string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget style="default" class="image" name="wnd_nstv_mail_list_image433">
+            <property>
+                <rect>[0,116,1024,2]</rect>
+                <forecolor>[default_color,default_color,default_color]</forecolor>
+                <backcolor>[line_bg_color,line_bg_color,line_bg_color]</backcolor>
+                <mode>single</mode>
+                <img></img>
+            </property>
+        </widget>
+        <widget style="default" class="image" name="wnd_nstv_mail_list_image453">
+            <property>
+                <rect>[0,500,1024,2]</rect>
+                <forecolor>[default_color,default_color,default_color]</forecolor>
+                <backcolor>[line_bg_color,line_bg_color,line_bg_color]</backcolor>
+                <mode>signal</mode>
+                <img></img>
+            </property>
+        </widget>
+    </children>
+</widget>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget class="window" style="default" name="wnd_nstv_wallet_history">
+    <property>
+        <rect>[0,0,1024,576]</rect>
+        <forecolor>[text_color,text_color,text_color]</forecolor>
+        <backcolor>[osd_trans,osd_trans,osd_trans]</backcolor>
+    </property>
+    <signal>
+        <destroy>On_wnd_nstv_wallet_history_destroy</destroy>
+        <keypress>On_wnd_nstv_wallet_history_keypress</keypress>
+    </signal>
+    <children>
+        <widget class="image" style="default" name="img_nstv_wallet_history_back">
+            <property>
+                <rect>[0,0,1024,576]</rect>
+                <forecolor>[default_color,default_color,default_color]</forecolor>
+                <backcolor>[window_bg_color,window_bg_color,window_bg_color]</backcolor>
+                <mode>multiple</mode>
+                <img></img>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_nstv_wallet_history_title">
+            <property>
+                <rect>[224,50,480,52]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <font>font_main</font>
+                <alignment>hcentre|vcentre</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="image" style="default" name="wnd_nstv_wallet_history_image415">
+            <property>
+                <rect>[160,40,62,62]</rect>
+                <state>hide</state>
+                <forecolor>[default_color,default_color,default_color]</forecolor>
+                <backcolor>[default_color,default_color,default_color]</backcolor>
+                <mode>single</mode>
+                <img>yx_menuicon2_ca.bmp</img>
+            </property>
+        </widget>
+        <widget class="listview" style="default" name="lsv_nstv_wallet_history_list">
+            <property>
+                <rect>[152,144,720,180]</rect>
+                <forecolor>[default_color,default_color,default_color]</forecolor>
+                <backcolor>[window_bg_color,window_bg_color,window_bg_color]</backcolor>
+                <roll_time>0</roll_time>
+                <focus_img>s_bar_long_focus.bmp</focus_img>
+                <item_active_image>s_bar_long_focus.bmp</item_active_image>
+                <i18n>true</i18n>
+                <item_rect>[0,0,696,30]</item_rect>
+                <item_fore_color>[text_color,text_focus_color,text_color]</item_fore_color>
+                <item_back_color>[window_bg_color,window_bg_color,window_bg_color]</item_back_color>
+            </property>
+            <signal>
+                <get_total>On_lsv_nstv_wallet_history_list_get_total</get_total>
+                <get_data>On_lsv_nstv_wallet_history_list_get_data</get_data>
+            </signal>
+            <children>
+                <widget class="header" style="default" name="hdr_nstv_wallet_history">
+                    <property>
+                        <rect>[0,0,709,30]</rect>
+                        <forecolor>[text_tag_color,text_tag_color,text_tag_color]</forecolor>
+                        <backcolor>[window_bg_color,window_bg_color,window_bg_color]</backcolor>
+                        <format>headershow</format>
+                        <colum_number>4</colum_number>
+                    </property>
+                    <children>
+                        <widget class="text" style="default" name="hdr_nstv_wallet_history_number">
+                            <property>
+                                <rect>[29,0,70,30]</rect>
+                                <forecolor>[text_tag_color,text_tag_color,text_tag_color]</forecolor>
+                                <backcolor>[window_bg_color,window_bg_color,window_bg_color]</backcolor>
+                                <alignment>left|vcentre</alignment>
+                                <string>No.</string>
+                                <format>static</format>
+                            </property>
+                        </widget>
+                        <widget class="text" style="default" name="hdr_nstv_wallet_history_slot_id">
+                            <property>
+                                <rect>[99,0,100,30]</rect>
+                                <forecolor>[text_tag_color,text_tag_color,text_tag_color]</forecolor>
+                                <backcolor>[window_bg_color,window_bg_color,window_bg_color]</backcolor>
+                                <string>Slot ID</string>
+                                <format>static</format>
+                            </property>
+                        </widget>
+                        <widget class="text" style="default" name="hdr_nstv_wallet_history_credit_point">
+                            <property>
+                                <rect>[199,0,250,30]</rect>
+                                <forecolor>[text_tag_color,text_tag_color,text_tag_color]</forecolor>
+                                <backcolor>[window_bg_color,window_bg_color,window_bg_color]</backcolor>
+                                <string>Credit Point</string>
+                                <format>static</format>
+                            </property>
+                        </widget>
+                        <widget class="text" style="default" name="hdr_nstv_wallet_history_used_point">
+                            <property>
+                                <rect>[449,0,260,30]</rect>
+                                <forecolor>[text_tag_color,text_tag_color,text_tag_color]</forecolor>
+                                <backcolor>[window_bg_color,window_bg_color,window_bg_color]</backcolor>
+                                <string>Used Point</string>
+                                <format>static</format>
+                            </property>
+                        </widget>
+                    </children>
+                </widget>
+                <widget class="scrollbar" style="default" name="scb_nstv_wallet_history_list">
+                    <property>
+                        <rect>[709,30,11,150]</rect>
+                        <forecolor>[text_color,text_color,text_color]</forecolor>
+                        <backcolor>[default_color,default_color,default_color]</backcolor>
+                        <back_img>s_roll_m.bmp</back_img>
+                        <arrow_up>s_roll_t.bmp</arrow_up>
+                        <arrow_down>s_roll_d.bmp</arrow_down>
+                        <fore_img>s_roll_button.bmp</fore_img>
+                        <format>scroll_show</format>
+                    </property>
+                </widget>
+                <widget class="listitem" style="default" name="lsi_nstv_wallet_history_1"/>
+                <widget class="listitem" style="default" name="lsi_nstv_wallet_history_2"/>
+                <widget class="listitem" style="default" name="lsi_nstv_wallet_history_3"/>
+                <widget class="listitem" style="default" name="lsi_nstv_wallet_history_4"/>
+                <widget class="listitem" style="default" name="lsi_nstv_wallet_history_5"/>
+            </children>
+        </widget>
+    <widget class="image" style="default" name="img_nstv_wallet_history_exit">
+            <property>
+                <rect>[128,517,38,19]</rect>
+                <forecolor>[#00FF00,#00FF00,#00FF00]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <mode>single</mode>
+                <img>s_ts_exit.bmp</img>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_nstv_wallet_history_exit">
+            <property>
+                <rect>[174,512,150,28]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string>Exit</string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="image" style="default" name="img_nstv_wallet_history_menu">
+            <property>
+                <rect>[728,517,41,19]</rect>
+                <state>hide</state>
+                <forecolor>[#00FF00,#00FF00,#00FF00]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <mode>single</mode>
+                <img>s_ts_menu.bmp</img>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_nstv_wallet_history_menu">
+            <property>
+                <rect>[776,512,180,28]</rect>
+                <state>hide</state>
+                <forecolor>[text_color,text_color,#f4f4f4]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string>Return</string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget style="default" class="image" name="wnd_nstv_wallet_history_image438">
+            <property>
+                <rect>[0,116,1024,2]</rect>
+                <forecolor>[default_color,default_color,default_color]</forecolor>
+                <backcolor>[line_bg_color,line_bg_color,line_bg_color]</backcolor>
+                <mode>single</mode>
+                <img></img>
+            </property>
+        </widget>
+        <widget style="default" class="image" name="wnd_nstv_wallet_history_image451">
+            <property>
+                <rect>[0,500,1024,2]</rect>
+                <forecolor>[default_color,default_color,default_color]</forecolor>
+                <backcolor>[line_bg_color,line_bg_color,line_bg_color]</backcolor>
+                <mode>signal</mode>
+                <img></img>
+            </property>
+        </widget>
+    </children>
+</widget>

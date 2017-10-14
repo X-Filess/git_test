@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget class="window" style="default" name="wnd_nstv_ippv_notify">
+    <property>
+        <rect>[320,80,384,370]</rect>
+        <forecolor>[#000000,#000000,#000000]</forecolor>
+        <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+    </property>
+    <signal>
+        <create>On_wnd_nstv_ippv_notify_create</create>
+        <destroy>On_wnd_nstv_ippv_notify_destroy</destroy>
+        <keypress>On_wnd_nstv_ippv_notify_keypress</keypress>
+    </signal>
+    <children>
+        <widget class="image" style="default" name="img_nstv_ippv_notify_bg">
+            <property>
+                <rect>[0,0,384,370]</rect>
+                <forecolor>[#00FF00,#00FF00,#00FF00]</forecolor>
+                <backcolor>[pop_bg_color,pop_bg_color,pop_bg_color]</backcolor>
+                <mode>multiple</mode>
+                <img></img>
+                <lt_img>grey.bmp</lt_img>
+                <rt_img>grey.bmp</rt_img>
+                <lb_img>grey.bmp</lb_img>
+                <rb_img>grey.bmp</rb_img>
+                <l_img>grey.bmp</l_img>
+                <r_img>grey.bmp</r_img>
+                <t_img>grey.bmp</t_img>
+                <b_img>grey.bmp</b_img>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_nstv_ippv_notify_title">
+            <property>
+                <rect>[0,1,384,30]</rect>
+                <forecolor>[pop_title_color,pop_title_color,pop_title_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <string>Tips</string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_nstv_ippv_notify_content0">
+            <property>
+                <rect>[20,40,352,28]</rect>
+                <forecolor>[pop_text_color,pop_text_color,pop_text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|top</alignment>
+                <string></string>
+                <format>automatic</format>
+            </property>
+        </widget>
+
+        <widget class="text" style="default" name="txt_nstv_ippv_notify_content1">
+            <property>
+                <rect>[20,68,352,28]</rect>
+                <forecolor>[pop_text_color,pop_text_color,pop_text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|top</alignment>
+                <string></string>
+                <format>automatic</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_nstv_ippv_notify_content2">
+            <property>
+                <rect>[20,96,352,28]</rect>
+                <forecolor>[pop_text_color,pop_text_color,pop_text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|top</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_nstv_ippv_notify_content3">
+            <property>
+                <rect>[20,124,352,28]</rect>
+                <forecolor>[pop_text_color,pop_text_color,pop_text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|top</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_nstv_ippv_notify_content4">
+            <property>
+                <rect>[20,152,351,28]</rect>
+                <forecolor>[pop_text_color,pop_text_focus_color,pop_text_color]</forecolor>
+                <backcolor>[pop_bg_color,#000000,gui_trans]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_nstv_ippv_notify_content5">
+            <property>
+                <rect>[20,180,351,28]</rect>
+                <forecolor>[pop_text_color,pop_text_focus_color,pop_text_color]</forecolor>
+                <backcolor>[pop_bg_color,#000000,gui_trans]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <format>static</format>
+            </property>
+        </widget>
+
+        <widget class="box" style="default" name="box_nstv_ippv_notify_control">
+            <property>
+                <rect>[16,210,351,30]</rect>
+                <forecolor>[#000000,#000000,#000000]</forecolor>
+                <backcolor>[pop_bg_color,pop_bg_color,pop_bg_color]</backcolor>
+                <format>vertical</format>
+            </property>
+            <signal>
+                <keypress>On_box_nstv_ippv_notify_control_keypress</keypress>
+            </signal>
+            <children>
+                <widget class="boxitem" style="default" name="bxi_nstv_ippv_notify_chose">
+                    <property>
+                        <rect>[0,0,351,30]</rect>
+                        <forecolor>[pop_text_color,pop_text_focus_color,pop_text_color]</forecolor>
+                        <backcolor>[pop_bg_color,pop_bg_color,gui_trans]</backcolor>
+                        <focus_image>s_process_blue.bmp</focus_image>
+                    </property>
+                    <children>
+                        <widget class="text" style="default" name="txt_nstv_ippv_notify_chose">
+                            <property>
+                                <rect>[4,0,150,30]</rect>
+                                <forecolor>[pop_text_color,pop_text_focus_color,pop_text_color]</forecolor>
+                                <backcolor>[pop_bg_color,gui_trans,gui_trans]</backcolor>
+                                <alignment>left|vcentre</alignment>
+                                <string>Buy Type:</string>
+                            	<format>static</format>
+                            </property>
+                        </widget>
+                        <widget class="combobox" style="default" name="cmb_nstv_ippv_notify_chose">
+                            <property>
+                                <rect>[150,0,197,30]</rect>
+                                <forecolor>[pop_text_color,pop_text_focus_color,pop_text_color]</forecolor>
+                                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                                <unfocus_left_img>s_arrow_l.bmp</unfocus_left_img>
+                                <focus_left_img>s_arrow_l.bmp</focus_left_img>
+                                <unfocus_right_img>s_arrow_r.bmp</unfocus_right_img>
+                                <focus_right_img>s_arrow_r.bmp</focus_right_img>
+                                <content>[NONE]</content>
+                            </property>
+                        </widget>
+                    </children>
+                </widget>
+            </children>
+        </widget>
+        <widget class="box" style="default" name="box_nstv_ippv_notify_pin">
+            <property>
+                <rect>[16,240,351,30]</rect>
+                <forecolor>[#000000,#000000,#000000]</forecolor>
+                <backcolor>[pop_bg_color,pop_bg_color,pop_bg_color]</backcolor>
+                <format>vertical</format>
+            </property>
+            <signal>
+                <keypress>On_box_nstv_ippv_notify_pin_keypress</keypress>
+            </signal>
+            <children>
+                <widget class="boxitem" style="default" name="bxi_nstv_ippv_notify_pin">
+                    <property>
+                        <rect>[0,0,351,30]</rect>
+                        <forecolor>[pop_text_color,pop_text_focus_color,pop_text_color]</forecolor>
+                        <backcolor>[pop_bg_color,pop_bg_color,gui_trans]</backcolor>
+                        <focus_image>s_process_blue.bmp</focus_image>
+                    </property>
+                    <children>
+                        <widget class="text" style="default" name="txt_nstv_ippv_notify_pin">
+                            <property>
+                                <rect>[4,0,150,30]</rect>
+                                <forecolor>[pop_text_color,pop_text_focus_color,pop_text_color]</forecolor>
+                                <backcolor>[pop_bg_color,gui_trans,gui_trans]</backcolor>
+                                <alignment>left|vcentre</alignment>
+                                <string>PIN:</string>
+                            	<format>static</format>
+                            </property>
+                        </widget>
+                        <widget class="edit" style="default" name="edit_nstv_ippv_notify_pin">
+                            <property>
+                                <rect>[150,0,197,30]</rect>
+                                <forecolor>[pop_text_color,pop_text_focus_color,pop_text_color]</forecolor>
+                                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                                <alignment>hcentre|vcentre</alignment>
+                                <maxlen>6</maxlen>
+                                <format>edit_digit</format>
+                            </property>
+                        </widget>
+                    </children>
+                </widget>
+            </children>
+        </widget>
+
+        <widget class="button" style="default" name="btn_nstv_ippv_notify_control1">
+            <property>
+                <rect>[16,290,117,30]</rect>
+                <forecolor>[pop_text_color,pop_text_focus_color,pop_text_color]</forecolor>
+                <backcolor>[pop_bg_color,#000000,gui_trans]</backcolor>
+                <alignment>hcentre|vcentre</alignment>
+                <focus_img>s_process_blue.bmp</focus_img>
+                <unfocus_img>s_process_grey.bmp</unfocus_img>
+                <string>Yes</string>
+            </property>
+        </widget>
+        <widget class="button" style="default" name="btn_nstv_ippv_notify_control2">
+            <property>
+                <rect>[250,290,117,30]</rect>
+                <forecolor>[pop_text_color,pop_text_focus_color,pop_text_color]</forecolor>
+                <backcolor>[pop_bg_color,#000000,gui_trans]</backcolor>
+                <alignment>hcentre|vcentre</alignment>
+                <focus_img>s_process_blue.bmp</focus_img>
+                <unfocus_img>s_process_grey.bmp</unfocus_img>
+                <string>No</string>
+            </property>
+        </widget>
+        <widget class="image" style="default" name="img_nstv_ippv_notify_red">
+            <property>
+                <rect>[16,330,16,16]</rect>
+                <forecolor>[default_color,default_color,default_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <mode>single</mode>
+                <img>s_ts_red.bmp</img>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="text_nstv_ippv_notify_red">
+            <property>
+                <rect>[40,322,120,30]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string>Up</string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="image" style="default" name="img_nstv_ippv_notify_green">
+            <property>
+                <rect>[250,330,16,16]</rect>
+                <forecolor>[default_color,default_color,default_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <mode>single</mode>
+                <img>s_ts_green.bmp</img>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="text_nstv_ippv_notify_green">
+            <property>
+                <rect>[270,322,110,30]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string>Down</string>
+                <format>static</format>
+            </property>
+        </widget>
+    </children>
+</widget>

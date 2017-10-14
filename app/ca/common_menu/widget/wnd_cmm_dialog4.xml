@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget class="window" style="default" name="wnd_cmm_dialog4">
+    <property>
+        <rect>[320,142,384,230]</rect>
+        <forecolor>[#000000,#000000,#000000]</forecolor>
+        <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+    </property>
+    <signal>
+        <create>On_wnd_cmm_dialog4_create</create>
+        <destroy>On_wnd_cmm_dialog4_destroy</destroy>
+        <keypress>On_wnd_cmm_dialog4_keypress</keypress>
+    </signal>
+    <children>
+        <widget class="image" style="default" name="img_cmm_dialog4_bg">
+            <property>
+                <rect>[0,0,384,230]</rect>
+                <forecolor>[#00FF00,#00FF00,#00FF00]</forecolor>
+                <backcolor>[pop_bg_color,pop_bg_color,pop_bg_color]</backcolor>
+                <mode>multiple</mode>
+                <img></img>
+                <lt_img>s_win2_l_t2.bmp</lt_img>
+                <rt_img>s_win2_r_t2.bmp</rt_img>
+                <lb_img>s_win2_l_b2.bmp</lb_img>
+                <rb_img>s_win2_r_b2.bmp</rb_img>
+                <l_img>s_win2_l_m.bmp</l_img>
+                <r_img>s_win2_r_m.bmp</r_img>
+                <t_img>s_win2_m_t2.bmp</t_img>
+                <b_img>s_win2_m_b2.bmp</b_img>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_cmm_dialog4_title">
+            <property>
+                <rect>[0,1,384,34]</rect>
+                <forecolor>[pop_title_color,pop_title_color,pop_title_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <string>Tips</string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_cmm_dialog4_content1">
+            <property>
+                <rect>[16,51,352,32]</rect>
+                <forecolor>[pop_text_color,pop_text_color,pop_text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|top</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_cmm_dialog4_content2">
+            <property>
+                <rect>[16,83,352,32]</rect>
+                <forecolor>[pop_text_color,pop_text_color,pop_text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|top</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_cmm_dialog4_content3">
+            <property>
+                <rect>[16,115,352,32]</rect>
+                <forecolor>[pop_text_color,pop_text_color,pop_text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|top</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="button" style="default" name="btn_cmm_dialog4_password1">
+            <property>
+                <rect>[34,162,50,35]</rect>
+                <forecolor>[#000000,#000000,#000000]</forecolor>
+                <backcolor>[#808080,#808080,#808080]</backcolor>
+                <alignment>hcentre|vcentre</alignment>
+            </property>
+        </widget>
+        <widget class="button" style="default" name="btn_cmm_dialog4_password2">
+            <property>
+                <rect>[121,162,50,35]</rect>
+                <forecolor>[#000000,#000000,#000000]</forecolor>
+                <backcolor>[#808080,#808080,#808080]</backcolor>
+                <alignment>hcentre|vcentre</alignment>
+            </property>
+        </widget>
+        <widget class="button" style="default" name="btn_cmm_dialog4_password3">
+            <property>
+                <rect>[210,162,50,35]</rect>
+                <forecolor>[#000000,#000000,#000000]</forecolor>
+                <backcolor>[#808080,#808080,#808080]</backcolor>
+                <alignment>hcentre|vcentre</alignment>
+            </property>
+        </widget>
+        <widget class="button" style="default" name="btn_cmm_dialog4_password4">
+            <property>
+                <rect>[299,162,50,35]</rect>
+                <forecolor>[#000000,#000000,#000000]</forecolor>
+                <backcolor>[#808080,#808080,#808080]</backcolor>
+                <alignment>hcentre|vcentre</alignment>
+            </property>
+        </widget>
+    </children>
+</widget>

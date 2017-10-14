@@ -1,0 +1,9 @@
+json format:
+{
+"command"   : "ipc_dlna",
+"commandId" : 9001,
+"action"    : "play",
+"params"    : "http://xxxx",
+}
+
+action: play, stop, resume, pause, volume_plus, volume_minus, seek

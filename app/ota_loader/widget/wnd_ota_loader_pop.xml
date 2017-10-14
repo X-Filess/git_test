@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget class="window" style="default" name="wnd_ota_loader_pop">
+    <property>
+        <rect>[300,142,420,260]</rect>
+        <forecolor>[#000000,#000000,#000000]</forecolor>
+        <backcolor>[#00ff00,#00ff00,#00ff00]</backcolor>
+    </property>
+    <signal>
+        <create>On_wnd_ota_loader_pop_create</create>
+        <destroy>On_wnd_ota_loader_pop_destroy</destroy>
+        <keypress>On_wnd_ota_loader_pop_keypress</keypress>
+    </signal>
+    <children>
+        <widget class="image" style="default" name="img_ota_loader_pop_bg">
+            <property>
+                <rect>[0,0,420,260]</rect>
+                <forecolor>[#00FF00,#00FF00,#00FF00]</forecolor>
+                <backcolor>[pop_bg_color,pop_bg_color,pop_bg_color]</backcolor>
+                <mode>multiple</mode>
+                <img></img>
+                <lt_img>grey.bmp</lt_img>
+                <rt_img>grey.bmp</rt_img>
+                <lb_img>grey.bmp</lb_img>
+                <rb_img>grey.bmp</rb_img>
+                <l_img>grey.bmp</l_img>
+                <r_img>grey.bmp</r_img>
+                <t_img>grey.bmp</t_img>
+                <b_img>grey.bmp</b_img>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_ota_loader_pop_title">
+            <property>
+                <rect>[0,1,420,34]</rect>
+                <forecolor>[pop_title_color,pop_title_color,pop_title_color]</forecolor>
+                <backcolor>[#FF00FF,#FF00FF,#FF00FF]</backcolor>
+                <string>Tips</string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_ota_loader_pop_content_long">
+            <property>
+                <rect>[16,64,366,140]</rect>
+                <forecolor>[pop_text_color,pop_text_color,pop_text_color]</forecolor>
+                <backcolor>[#FF00FF,#FF00FF,#FF00FF]</backcolor>
+                <alignment>left|top</alignment>
+                <format>automatic</format>
+            </property>
+        </widget>
+        <widget class="button" style="default" name="btn_ota_loader_pop_control">
+            <property>
+                <rect>[135,200,188,30]</rect>
+                <forecolor>[pop_text_color,pop_text_focus_color,pop_text_color]</forecolor>
+                <backcolor>[pop_bg_color,#000000,#FF00FF]</backcolor>
+                <alignment>hcentre|vcentre</alignment>
+                <focus_img>s_bar_blue.bmp</focus_img>
+                <string>OK</string>
+            </property>
+        </widget>
+        <widget class="image" style="default" name="img_ota_loader_pop_image690">
+            <property>
+                <rect>[0,35,420,2]</rect>
+                <forecolor>[default_color,default_color,default_color]</forecolor>
+                <backcolor>[line_bg_color,line_bg_color,line_bg_color]</backcolor>
+                <mode>single</mode>
+                <img></img>
+            </property>
+        </widget>
+    </children>
+</widget>

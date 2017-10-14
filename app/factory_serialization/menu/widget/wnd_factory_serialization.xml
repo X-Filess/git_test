@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget class="window" style="default" name="wnd_factory_serialization">
+    <property>
+        <rect>[0,0,1024,576]</rect>
+        <forecolor>[#000001,#000001,#000001]</forecolor>
+        <backcolor>[#000001,#000001,#000001]</backcolor>
+    </property>
+    <signal>
+        <destroy>On_wnd_factory_serialization_destroy</destroy>
+        <keypress>On_wnd_factory_serialization_keypress</keypress>
+    </signal>
+
+    <children>
+        <widget class="text" style="default" name="txt_factory_serialization_title">
+            <property>
+                <rect>[100,50,800,52]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[#000001,#000001,#000001]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string>Factory Serialization:</string>
+                <font>font_main</font>
+                <format>static</format>
+            </property>
+        </widget>
+
+        <widget class="text" style="default" name="txt_factory_serialization_item1">
+            <property>
+                <rect>[100,108,800,30]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[#000001,#000001,#000001]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_factory_serialization_item2">
+            <property>
+                <rect>[100,139,800,30]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[#000001,#000001,#000001]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_factory_serialization_item3">
+            <property>
+                <rect>[100,170,800,30]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[#000001,#000001,#000001]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_factory_serialization_item4">
+            <property>
+                <rect>[100,201,800,30]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[#000001,#000001,#000001]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_factory_serialization_item5">
+            <property>
+                <rect>[100,232,800,30]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[#000001,#000001,#000001]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_factory_serialization_item6">
+            <property>
+                <rect>[100,263,800,30]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[#000001,#000001,#000001]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_factory_serialization_item7">
+            <property>
+                <rect>[100,294,800,30]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[#000001,#000001,#000001]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_factory_serialization_item8">
+            <property>
+                <rect>[100,324,800,30]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[#000001,#000001,#000001]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_factory_serialization_item9">
+            <property>
+                <rect>[100,355,800,30]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[#000001,#000001,#000001]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_factory_serialization_item10">
+            <property>
+                <rect>[100,385,800,30]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[#000001,#000001,#000001]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_factory_serialization_item11">
+            <property>
+                <rect>[100,416,800,30]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[#000001,#000001,#000001]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+    </children>
+</widget>

@@ -1,0 +1,77 @@
+command:【type类型后续需要在软件添加，命令和软件匹配】
+    	set_demod_type type=dvbs\r\n
+    	set_demod_type type=dvbt2\r\n
+reply:
+	    code:0 message: reply set_demod_type successful\r\n
+    	code:2 message: reply set_demod_type failed: the demod type is wrong or not register!\r\n
+
+command:
+        // FOR S OR S2
+        dmx：使用的DEMUX设备，默认这个字段可以不填；tsmode：0，TS并行连接，1，TS串行连接；tssource：TS输入源；tsselect：tuner号。关键字的先后顺序无所谓。
+
+	    set_tp fre=1030000 sym=27500000 dmx=0 tsmode=0 tssource=0 tsselect=0 pol=0\r\n
+	    set_tp fre=1030000 sym=27500000\r\n【其他参数不配置，使用默认值，如上所示】
+        
+        // FOR T OR T2
+        dmx：使用的DEMUX设备，默认这个字段可以不填；tsmode：0，TS并行连接，1，TS串行连接；tssource：TS输入源；tsselect：tuner号;workmode: 针对DVBT2的芯片
+        的工作模式，2：DVBT_AUTO_MODE，3：DVBT_NORMAL，4：DVBT2_BASE， 5：DVBT2_LITE， 6：DVBT2_BASE_LITE；dataplpid：0~255；commonplpid：0~255；
+        commonplpexite：0 or 1; bandwidth: 8000khz，7000khz，6000khz，5000khz，1700khz。
+
+        set_tp fre=850000 bandwidth=8000 workmode=2 dataplpid=0 commonplpid=0 commonplpexite=0 dmx=0 tsmode=0 tssource=1 tsselect=0 pol=0\r\n
+        set_tp fre=850000 bandwidth=8000 workmode=2\r\n
+reply:
+	    code:0 message: reply set_tp successful\r\n
+	    code:2 message: reply set_tp failed: do not select a vaild demod mode! set mode first!\r\n
+
+command:
+	    get_tp_status\r\n
+reply:
+	    code:0 data: (1) message: reply get_tp_status successful: locked\r\n
+	    code:0 data: (0) message: reply get_tp_status successful: unlocked\r\n
+	    code:1 message: reply get_tp_status failed: get lock status failed!\r\n
+
+command:
+	    clear_tp_lock\r\n
+reply:
+	    code:0 message: reply clear_tp_lock successful\r\n
+	    code:1 message: reply clear_tp_lock failed: destroy frontend failed!\r\n
+        code:2 message: reply clear_tp_lock failed: do not select a vaild demod mode! set mode first!\r\n
+
+command:【vformat: 视屏的编码类型，0-mpeg1/2,2-mpeg4/h.264；aformat：音频的解码器类型，0-mpeg1/2,2-dobly】	
+	    play vpid=36 apid=35 ppid=36 vformat=2 aformat=0\r\n
+reply:
+	    code:0 message: reply play successful\r\n
+	    code:2 message: reply play failed: do not select a vaild demod mode! set mode first!\r\n
+
+command:	
+	    stop\r\n
+reply:
+	    code:0 message: reply stop successful\r\n
+	    code:2 message: reply stop failed: do not select a vaild demod mode! set mode first!\r\n
+
+command:
+	    set_ts_compare tspid=36\r\n
+reply:
+	    code:0 message: reply set_ts_compare successful\r\n
+	    code:2 message: reply set_ts_compare failed: do not select a vaild demod mode! set mode first!\r\n
+
+command:
+	    get_ts_compare_result\r\n
+reply:
+	    code:0 data: (1,280644,278299) message: reply get_ts_compare_result successful: locked(lock status) 280644(receive packages) 278299(error packages)\r\n
+    	code:0 data: (0,380302,377126) message: reply get_ts_compare_result successful: unlocked(lock status) 380302(receive packages) 377126(error packages)\r\n
+    	code:1 data:  message: reply get_ts_compare_result failed: get ts compare result failed! maybe the function is not work\r\n
+    	code:2 data:  message: reply get_ts_compare_result failed: do not select a vaild demod mode! set mode first!\r\n
+
+command:
+	    clear_ts_compare\r\n
+reply:
+	    code:0 message: reply clear_ts_compare successful\r\n
+    	code:2 message: reply clear_ts_compare failed: do not select a vaild demod mode! set mode first!\r\n
+
+command:   
+	    exit\r\n
+reply:
+	    code:0 message: reply exit successful\r\n
+
+

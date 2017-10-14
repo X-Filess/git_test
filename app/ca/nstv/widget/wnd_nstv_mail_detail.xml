@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget class="window" style="default" name="wnd_nstv_mail_detail">
+    <property>
+        <rect>[0,0,1024,576]</rect>
+        <state>focus</state>
+        <forecolor>[#000000,#000000,#000000]</forecolor>
+        <backcolor>[window_bg_color,window_bg_color,window_bg_color]</backcolor>
+    </property>
+    <signal>
+        <destroy>On_wnd_nstv_mail_detail_destroy</destroy>
+        <keypress>On_wnd_nstv_mail_detail_keypress</keypress>
+    </signal>
+    <children>
+        <widget class="text" style="default" name="txt_nstv_mail_detail_title">
+            <property>
+                <rect>[60,46,904,52]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <font>font_main</font>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_nstv_mail_detail_line">
+            <property>
+                <rect>[60,103,904,2]</rect>
+                <forecolor>[#000000,#000000,#000000]</forecolor>
+                <backcolor>[#808080,#808080,#808080]</backcolor>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="notepad" style="default" name="ntp_nstv_mail_detail_content">
+            <property>
+                <rect>[60,124,904,360]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[window_bg_color,window_bg_color,window_bg_color]</backcolor>
+                <alignment>left|top</alignment>
+                <vertical_margin>10</vertical_margin>
+                <horizontal_margin>10</horizontal_margin>
+                <font>font_middle</font>
+            </property>
+            <children>
+                <widget class="scrollbar" style="default" name="wnd_nstv_mail_detail_scrollbar34">
+                    <property>
+                        <rect>[893,0,11,360]</rect>
+                        <forecolor>[text_color,text_color,text_color]</forecolor>
+                        <backcolor>[default_color,default_color,default_color]</backcolor>
+                        <back_img>s_roll_m.bmp</back_img>
+                        <arrow_up>s_roll_t.bmp</arrow_up>
+                        <arrow_down>s_roll_d.bmp</arrow_down>
+                        <fore_img>s_roll_button.bmp</fore_img>
+                        <format>scroll_show</format>
+                    </property>
+                </widget>
+            </children>
+        </widget>
+        <widget class="text" style="default" name="txt_nstv_mail_detail_line_bottom">
+            <property>
+                <rect>[60,494,904,2]</rect>
+                <forecolor>[#000000,#000000,#000000]</forecolor>
+                <backcolor>[#808080,#808080,#808080]</backcolor>
+                <string></string>
+                <format>static</format>
+            </property>
+        </widget>
+
+<widget class="image" style="default" name="img_mail_detail_exit">
+            <property>
+                <rect>[56,517,38,19]</rect>
+                <forecolor>[#00FF00,#00FF00,#00FF00]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <mode>single</mode>
+                <img>s_ts_exit.bmp</img>
+            </property>
+        </widget>
+        <widget class="text" style="default" name="txt_mail_detail_exit">
+            <property>
+                <rect>[101,512,160,28]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string>Exit</string>
+                <format>static</format>
+            </property>
+        </widget>
+        <widget class="image" style="default" name="img_mail_detail_menu">
+            <property>
+                <rect>[747,516,41,19]</rect>
+                <forecolor>[default_color,default_color,default_color]</forecolor>
+                <backcolor>[default_color,default_color,default_color]</backcolor>
+                <mode>single</mode>
+                <img>s_ts_menu.bmp</img>
+            </property>
+        </widget>
+    <widget class="text" style="default" name="txt_mail_detail_menu">
+            <property>
+                <rect>[791,511,180,28]</rect>
+                <forecolor>[text_color,text_color,text_color]</forecolor>
+                <backcolor>[gui_trans,gui_trans,gui_trans]</backcolor>
+                <alignment>left|vcentre</alignment>
+                <string>Return</string>
+                <format>static</format>
+            </property>
+        </widget>
+    </children>
+</widget>
